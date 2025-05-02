@@ -1,1 +1,104 @@
 # AWS-Certified-Solutions-Architect-Associate-Certification-SAA-C03
+
+## Mục lục
+
+##### Section 1. Introduction - AWS Certified Solutions Architect Associate
+- [1. Course Introduction - AWS Certified Solutions Architect Associate](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/1.%20Course%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate.md)
+- [2. PLEASE READ Lectures you can skip if you took a course from me before](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/2.%20PLEASE%20READ%20Lectures%20you%20can%20skip%20if%20you%20took%20a%20course%20from%20me%20before.md)
+- [3. Creating an AWS Account](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/3.%20Creating%20an%20AWS%20Account.md)
+- [4. AWS Account Activation Troubleshooting](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/4.%20AWS%20Account%20Activation%20Troubleshooting.md)
+- [5. Important Message](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/5.%20Important%20Message.md)
+- [6. About your instructor](Section%201.%20Introduction%20-%20AWS%20Certified%20Solutions%20Architect%20Associate/6.%20About%20your%20instructor.md)
+
+##### Section 2. Code & Slides Download
+- [7. Slides and Code Download](Section%202.%20Code%20&%20Slides%20Download/7.%20Slides%20and%20Code%20Download.md)
+
+##### Section 3. Getting started with AWS
+- [8. AWS Cloud Overview - Regions & AZ](Section%203.%20Getting%20started%20with%20AWS/8.%20AWS%20Cloud%20Overview%20-%20Regions%20&%20AZ.md)
+- [9. [Important] AWS Console UI Update](Section%203.%20Getting%20started%20with%20AWS/9.%20[Important]%20AWS%20Console%20UI%20Update.md)
+- [10. Tour of the AWS Console & Services in AWS](Section%203.%20Getting%20started%20with%20AWS/10.%20Tour%20of%20the%20AWS%20Console%20&%20Services%20in%20AWS.md)
+- [11. About the UI changes in the course](Section%203.%20Getting%20started%20with%20AWS/11.%20About%20the%20UI%20changes%20in%20the%20course.md)
+
+##### Section 4. IAM & AWS CLI
+- [12. IAM Introduction Users Groups Policies](Section%204.%20IAM%20&%20AWS%20CLI/12.%20IAM%20Introduction%20Users%20Groups%20Policies.md)
+- [13. IAM Users & Groups Hands On](Section%204.%20IAM%20&%20AWS%20CLI/13.%20IAM%20Users%20&%20Groups%20Hands%20On.md)
+- [14. IAM Policies](Section%204.%20IAM%20&%20AWS%20CLI/14.%20IAM%20Policies.md)
+- [15. IAM Policies Hands On](Section%204.%20IAM%20&%20AWS%20CLI/15.%20IAM%20Policies%20Hands%20On.md)
+- [16. IAM MFA Overview](Section%204.%20IAM%20&%20AWS%20CLI/16.%20IAM%20MFA%20Overview.md)
+- [17. IAM MFA Hands On](Section%204.%20IAM%20&%20AWS%20CLI/17.%20IAM%20MFA%20Hands%20On.md)
+- [18. AWS Access Keys CLI and SDK](Section%204.%20IAM%20&%20AWS%20CLI/18.%20AWS%20Access%20Keys%20CLI%20and%20SDK.md)
+- [19. AWS CLI Setup on Windows](Section%204.%20IAM%20&%20AWS%20CLI/19.%20AWS%20CLI%20Setup%20on%20Windows.md)
+- [20. AWS CLI Setup on Mac OS X](Section%204.%20IAM%20&%20AWS%20CLI/20.%20AWS%20CLI%20Setup%20on%20Mac%20OS%20X.md)
+- [21. AWS CLI Setup on Linux](Section%204.%20IAM%20&%20AWS%20CLI/21.%20AWS%20CLI%20Setup%20on%20Linux.md)
+- [22. AWS CLI Hands On](Section%204.%20IAM%20&%20AWS%20CLI/22.%20AWS%20CLI%20Hands%20On.md)
+- [23. AWS CloudShell Region Availability](Section%204.%20IAM%20&%20AWS%20CLI/23.%20AWS%20CloudShell%20Region%20Availability.md)
+- [24. AWS CloudShell](Section%204.%20IAM%20&%20AWS%20CLI/24.%20AWS%20CloudShell.md)
+- [25. IAM Roles for AWS Services](Section%204.%20IAM%20&%20AWS%20CLI/25.%20IAM%20Roles%20for%20AWS%20Services.md)
+- [26. IAM Roles Hands On](Section%204.%20IAM%20&%20AWS%20CLI/26.%20IAM%20Roles%20Hands%20On.md)
+- [27. IAM Security Tools](Section%204.%20IAM%20&%20AWS%20CLI/27.%20IAM%20Security%20Tools.md)
+- [28. IAM Security Tools Hands On](Section%204.%20IAM%20&%20AWS%20CLI/28.%20IAM%20Security%20Tools%20Hands%20On.md)
+- [29. IAM Best Practices](Section%204.%20IAM%20&%20AWS%20CLI/29.%20IAM%20Best%20Practices.md)
+- [30. IAM Summary](Section%204.%20IAM%20&%20AWS%20CLI/30.%20IAM%20Summary.md)
+- [Quiz 1 IAM & AWS CLI Quiz](Section%204.%20IAM%20&%20AWS%20CLI/Quiz%201%20IAM%20&%20AWS%20CLI%20Quiz.md)
+
+##### Section 5. EC2 Fundamentals
+- [31. AWS Budget Setup](Section%205.%20EC2%20Fundamentals/31.%20AWS%20Budget%20Setup.md)
+- [32. EC2 Basics](Section%205.%20EC2%20Fundamentals/32.%20EC2%20Basics.md)
+- [33. Create an EC2 Instance with EC2 User Data to have a Website Hands On](Section%205.%20EC2%20Fundamentals/33.%20Create%20an%20EC2%20Instance%20with%20EC2%20User%20Data%20to%20have%20a%20Website%20Hands%20On.md)
+- [34. EC2 Instance Types Basics](Section%205.%20EC2%20Fundamentals/34.%20EC2%20Instance%20Types%20Basics.md)
+- [35. Security Groups & Classic Ports Overview](Section%205.%20EC2%20Fundamentals/35.%20Security%20Groups%20&%20Classic%20Ports%20Overview.md)
+- [36. Security Groups Hands On](Section%205.%20EC2%20Fundamentals/36.%20Security%20Groups%20Hands%20On.md)
+- [37. SSH Overview](Section%205.%20EC2%20Fundamentals/37.%20SSH%20Overview.md)
+- [38. How to SSH using Linux or Mac](Section%205.%20EC2%20Fundamentals/38.%20How%20to%20SSH%20using%20Linux%20or%20Mac.md)
+- [39. How to SSH using Windows](Section%205.%20EC2%20Fundamentals/39.%20How%20to%20SSH%20using%20Windows.md)
+- [40. How to SSH using Windows 10](Section%205.%20EC2%20Fundamentals/40.%20How%20to%20SSH%20using%20Windows%2010.md)
+- [41. SSH Troubleshooting](Section%205.%20EC2%20Fundamentals/41.%20SSH%20Troubleshooting.md)
+- [42. EC2 Instance Connect](Section%205.%20EC2%20Fundamentals/42.%20EC2%20Instance%20Connect.md)
+- [43. EC2 Instance Roles Demo](Section%205.%20EC2%20Fundamentals/43.%20EC2%20Instance%20Roles%20Demo.md)
+- [44. EC2 Instance Purchasing Options](Section%205.%20EC2%20Fundamentals/44.%20EC2%20Instance%20Purchasing%20Options.md)
+- [45. IP Address Charges in AWS](Section%205.%20EC2%20Fundamentals/45.%20IP%20Address%20Charges%20in%20AWS.md)
+- [46. Spot Instances & Spot Fleet](Section%205.%20EC2%20Fundamentals/46.%20Spot%20Instances%20&%20Spot%20Fleet.md)
+- [47. EC2 Instances Launch Types Hands On](Section%205.%20EC2%20Fundamentals/47.%20EC2%20Instances%20Launch%20Types%20Hands%20On.md)
+
+##### Section 6. EC2 - Solutions Architect Associate Level
+- [Quiz 3. EC2 SAA Level Quiz](Section%206.%20EC2%20-%20Solutions%20Architect%20Associate%20Level/Quiz%203.%20EC2%20SAA%20Level%20Quiz.md)
+
+##### Section 7. EC2 Instance Storage
+- [57. EBS Overview](Section%207.%20EC2%20Instance%20Storage/57.%20EBS%20Overview.md)
+- [58. EBS Hands On](Section%207.%20EC2%20Instance%20Storage/58.%20EBS%20Hands%20On.md)
+- [59. EBS Snapshots](Section%207.%20EC2%20Instance%20Storage/59.%20EBS%20Snapshots.md)
+- [60. EBS Snapshots - Hands On](Section%207.%20EC2%20Instance%20Storage/60.%20EBS%20Snapshots%20-%20Hands%20On.md)
+- [61. AMI Overview](Section%207.%20EC2%20Instance%20Storage/61.%20AMI%20Overview.md)
+- [62. AMI Hands On](Section%207.%20EC2%20Instance%20Storage/62.%20AMI%20Hands%20On.md)
+- [63. EC2 Instance Store](Section%207.%20EC2%20Instance%20Storage/63.%20EC2%20Instance%20Store.md)
+- [64. EBS Volume Types](Section%207.%20EC2%20Instance%20Storage/64.%20EBS%20Volume%20Types.md)
+- [65. EBS Multi-Attach](Section%207.%20EC2%20Instance%20Storage/65.%20EBS%20Multi-Attach.md)
+- [66. EBS Encryption](Section%207.%20EC2%20Instance%20Storage/66.%20EBS%20Encryption.md)
+- [67. Amazon EFS](Section%207.%20EC2%20Instance%20Storage/67.%20Amazon%20EFS.md)
+- [68. Amazon EFS - Hands On](Section%207.%20EC2%20Instance%20Storage/68.%20Amazon%20EFS%20-%20Hands%20On.md)
+- [69. EFS vs EBS](Section%207.%20EC2%20Instance%20Storage/69.%20EFS%20vs%20EBS.md)
+- [70. EBS & EFS - Section Cleanup](Section%207.%20EC2%20Instance%20Storage/70.%20EBS%20&%20EFS%20-%20Section%20Cleanup.md)
+- [Quiz 4. EC2 Data Management Quiz](Section%207.%20EC2%20Instance%20Storage/Quiz%204.%20EC2%20Data%20Management%20Quiz.md)
+
+##### Section 8. High Availability and Scalability
+- [71. High Availability and Scalability](Section%208.%20High%20Availability%20and%20Scalability/71.%20High%20Availability%20and%20Scalability.md)
+- [72. Elastic Load Balancing (ELB) Overview](Section%208.%20High%20Availability%20and%20Scalability/72.%20Elastic%20Load%20Balancing%20(ELB)%20Overview.md)
+- [73. Note. About the Classic Load Balancer (CLB)](Section%208.%20High%20Availability%20and%20Scalability/73.%20Note.%20About%20the%20Classic%20Load%20Balancer%20(CLB).md)
+- [74. Application Load Balancer (ALB)](Section%208.%20High%20Availability%20and%20Scalability/74.%20Application%20Load%20Balancer%20(ALB).md)
+- [75. Application Load Balancer (ALB) - Hands On - Part 1](Section%208.%20High%20Availability%20and%20Scalability/75.%20Application%20Load%20Balancer%20(ALB)%20-%20Hands%20On%20-%20Part%201.md)
+- [76. Application Load Balancer (ALB) - Hands On - Part 2](Section%208.%20High%20Availability%20and%20Scalability/76.%20Application%20Load%20Balancer%20(ALB)%20-%20Hands%20On%20-%20Part%202.md)
+- [77. Network Load Balancer (NLB)](Section%208.%20High%20Availability%20and%20Scalability/77.%20Network%20Load%20Balancer%20(NLB).md)
+- [78. Network Load Balancer (NLB) - Hands On](Section%208.%20High%20Availability%20and%20Scalability/78.%20Network%20Load%20Balancer%20(NLB)%20-%20Hands%20On.md)
+- [79. Gateway Load Balancer (GWLB)](Section%208.%20High%20Availability%20and%20Scalability/79.%20Gateway%20Load%20Balancer%20(GWLB).md)
+- [80. Elastic Load Balancer - Sticky Sessions](Section%208.%20High%20Availability%20and%20Scalability/80.%20Elastic%20Load%20Balancer%20-%20Sticky%20Sessions.md)
+- [81. Elastic Load Balancer - Cross Zone Load Balancing](Section%208.%20High%20Availability%20and%20Scalability/81.%20Elastic%20Load%20Balancer%20-%20Cross%20Zone%20Load%20Balancing.md)
+- [82. Elastic Load Balancer - SSL Certificates](Section%208.%20High%20Availability%20and%20Scalability/82.%20Elastic%20Load%20Balancer%20-%20SSL%20Certificates.md)
+- [83. Elastic Load Balancer - SSL Certificates - Hands On](Section%208.%20High%20Availability%20and%20Scalability/83.%20Elastic%20Load%20Balancer%20-%20SSL%20Certificates%20-%20Hands%20On.md)
+- [84. Elastic Load Balancer - Connection Draining](Section%208.%20High%20Availability%20and%20Scalability/84.%20Elastic%20Load%20Balancer%20-%20Connection%20Draining.md)
+- [85. Auto Scaling Groups (ASG) Overview](Section%208.%20High%20Availability%20and%20Scalability/85.%20Auto%20Scaling%20Groups%20(ASG)%20Overview.md)
+- [86. Auto Scaling Groups Hands On](Section%208.%20High%20Availability%20and%20Scalability/86.%20Auto%20Scaling%20Groups%20Hands%20On.md)
+- [87. Auto Scaling Groups - Scaling Policies](Section%208.%20High%20Availability%20and%20Scalability/87.%20Auto%20Scaling%20Groups%20-%20Scaling%20Policies.md)
+- [88. Auto Scaling Groups - Scaling Policies Hands On](Section%208.%20High%20Availability%20and%20Scalability/88.%20Auto%20Scaling%20Groups%20-%20Scaling%20Policies%20Hands%20On.md)
+- [Quiz 5. High Availability & Scalability Quiz](Section%208.%20High%20Availability%20and%20Scalability/Quiz%205.%20High%20Availability%20&%20Scalability%20Quiz.md)
+
+---
