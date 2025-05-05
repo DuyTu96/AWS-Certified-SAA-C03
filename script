@@ -1,5 +1,5 @@
 document.querySelector('svg[aria-label="Transcript in sidebar region"]').addEventListener("click", () => {
-    let text = "tổng hợp lại nội dung bằng tiếng việt, hãy giữ nguyên những từ keywork quan trọng";
+    let text = "tổng hợp lại nội dung bằng tiếng việt, hãy giữ nguyên những từ keywork quan trọng \n";
     
     text += document.getElementById("ct-sidebar-scroll-container").innerText;
     navigator.clipboard.writeText(text)
@@ -10,6 +10,21 @@ document.querySelector('svg[aria-label="Transcript in sidebar region"]').addEven
             console.error("Lỗi sao chép:", err);
         });
 });
+
+document.querySelector('h2 > button > svg[aria-label="Search"]').addEventListener("click", () => {
+    let text = "tổng hợp lại nội dung bằng tiếng việt, hãy giữ nguyên những từ keywork quan trọng \n";
+
+    text += document.getElementById("ct-sidebar-scroll-container").innerText;
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            console.log("Đã sao chép vào clipboard!");
+        })
+        .catch(err => {
+            console.error("Lỗi sao chép:", err);
+        });
+});
+
+
 
 
 
