@@ -1,0 +1,31 @@
+document.querySelector("#udemy").addEventListener("click", () => {
+  if (document.getElementById("ct-sidebar-scroll-container")) {
+    let text =
+      "Tổng hợp lại nội dung bằng tiếng việt, hãy giữ nguyên những từ keywork quan trọng \r\n \r\n";
+
+    text += document.getElementById("ct-sidebar-scroll-container").innerText;
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        console.log("Đã sao chép vào clipboard!");
+      })
+      .catch((err) => {
+        console.error("Lỗi sao chép:", err);
+      });
+  }
+});
+
+document
+  .querySelector('button[data-purpose="skip-question-button"]')
+  .addEventListener("click", () => {
+    const text =
+      document.querySelector("form:nth-child(1)").innerText + "\r\n\r\n\r\n";
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        console.log("Đã sao chép vào clipboard!");
+      })
+      .catch((err) => {
+        console.error("Lỗi sao chép:", err);
+      });
+  });
