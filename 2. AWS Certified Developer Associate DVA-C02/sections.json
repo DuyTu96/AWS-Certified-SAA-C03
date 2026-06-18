@@ -1,0 +1,718 @@
+[
+  {
+    "title": "Section 1: Course Introduction AWS Certified Developer Associate",
+    "dir": "Section 1- Course Introduction - AWS Certified Developer Associate",
+    "files": [
+      "1. Course Introduction - AWS Certified Developer Associate.md",
+      "2. PLEASE READ- Lectures you can skip if you took a course from me before.md",
+      "3. Creating an AWS Account.md",
+      "4. AWS Account Activation Troubleshooting.md",
+      "5. Important Message.md",
+      "6. About your instructor.md"
+    ]
+  }
+,
+  {
+    "title": "Section 10: VPC Fundamentals",
+    "dir": "Section 10- VPC Fundamentals",
+    "files": [
+      "107. VPC Fundamentals - Section Introduction.md",
+      "108. VPC, Subnets, IGW and NAT.md",
+      "109. NACL, SG, VPC Flow Logs.md",
+      "110. VPC Peering, Endpoints, VPN, DX.md",
+      "111. VPC Cheat Sheet & Closing Comments.md",
+      "112. Three Tier Architecture.md",
+      "Quiz 7- VPC Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 11: Amazon S3 Introduction",
+    "dir": "Section 11- Amazon S3 Introduction",
+    "files": [
+      "113. S3 Overview.md",
+      "114. S3 Hands On.md",
+      "115. S3 Security- Bucket Policy.md",
+      "116. S3 Security- Bucket Policy Hands On.md",
+      "117. S3 Website Overview.md",
+      "118. S3 Website Hands On.md",
+      "119. S3 Versioning.md",
+      "120. S3 Versioning - Hands On.md",
+      "121. S3 Replication.md",
+      "122. S3 Replication Notes.md",
+      "123. S3 Replication - Hands On.md",
+      "124. S3 Storage Classes Overview.md",
+      "125. S3 Storage Classes Hands On.md",
+      "Quiz 8- Amazon S3 Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 12: AWS CLI, SDK, IAM Roles & Policies",
+    "dir": "Section 12- AWS CLI, SDK, IAM Roles & Policies",
+    "files": [
+      "126. AWS EC2 Instance Metadata.md",
+      "127. AWS EC2 Instance Metadata - Hands On.md",
+      "128. AWS CLI Profiles.md",
+      "129. AWS CLI with MFA.md",
+      "130. AWS SDK Overview.md",
+      "131. Exponential Backoff & Service Limit Increase.md",
+      "132. AWS Signature v4 Signing (Sigv4).md",
+      "Quiz 9- AWS IAM, CLI, & SDK Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 13: Advanced Amazon S3",
+    "dir": "Section 13- Advanced Amazon S3",
+    "files": [
+      "133. S3 Lifecycle Rules (with S3 Analytics).md",
+      "134. S3 Lifecycle Rules - Hands On.md",
+      "135. S3 Event Notifications.md",
+      "136. S3 Event Notifications - Hands On.md",
+      "137. S3 Performance.md",
+      "138. S3 Object Tags & Metadata.md",
+      "Quiz 10- Amazon S3 Advanced Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 14: Amazon S3 Security",
+    "dir": "Section 14- Amazon S3 Security",
+    "files": [
+      "139. S3 Encryption.md",
+      "140. About DSSE-KMS.md",
+      "141. S3 Encryption - Hands On.md",
+      "142. S3 Default Encryption.md",
+      "143. S3 CORS.md",
+      "144. S3 CORS Hands On.md",
+      "145. S3 MFA Delete.md",
+      "146. S3 MFA Delete Hands On.md",
+      "147. S3 Access Logs.md",
+      "148. S3 Access Logs - Hands On.md",
+      "149. S3 Pre-signed URLs.md",
+      "150. S3 Pre-signed URLs - Hands On.md",
+      "151. S3 Access Points.md",
+      "152. S3 Object Lambda.md",
+      "Quiz 11- Amazon S3 Security Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 15: CloudFront",
+    "dir": "Section 15- CloudFront",
+    "files": [
+      "153. CloudFront - Overview.md",
+      "154. CloudFront Hands On.md",
+      "155. CloudFront - Caching & Caching Policies.md",
+      "156. CloudFront - Cache Invalidations.md",
+      "157. CloudFront - Cache Behaviors.md",
+      "158. CloudFront - Caching & Caching Invalidations - Hands On.md",
+      "159. CloudFront - ALB-EC2 as an Origin.md",
+      "160. CloudFront - Geo Restriction.md",
+      "161. CloudFront Signed URL - Cookies.md",
+      "162. CloudFront Signed URL - Key Groups + Hands On.md",
+      "163. CloudFront Advanced Concepts.md",
+      "164. CloudFront - Real Time Logs.md",
+      "Quiz 12- CloudFront Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 16: ECS, ECR & Fargate Docker in AWS",
+    "dir": "Section 16- ECS, ECR & Fargate - Docker in AWS",
+    "files": [
+      "165. Docker Introduction.md",
+      "166. Amazon ECS.md",
+      "167. Creating ECS Cluster - Hands On.md",
+      "168. Creating ECS Service - Hands On.md",
+      "169. Amazon ECS - Auto Scaling.md",
+      "170. Amazon ECS - Rolling Updates.md",
+      "171. Amazon ECS - Solutions Architectures.md",
+      "172. Amazon ECS Task Definitions - Deep Dive.md",
+      "173. Amazon ECS Task Definitions - Hands On.md",
+      "174. Amazon ECS - Task Placements.md",
+      "175. Amazon ECS - Clean Up - Hands On.md",
+      "176. Amazon ECR.md",
+      "177. Amazon ECR - Hands On.md",
+      "178. AWS CoPilot - Overview.md",
+      "179. AWS CoPilot - Hands On.md",
+      "180. Amazon EKS.md",
+      "Quiz 13- Containers on AWS Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 17: AWS Elastic Beanstalk",
+    "dir": "Section 17- AWS Elastic Beanstalk",
+    "files": [
+      "181. AWS Elastic Beanstalk - Section Introduction.md",
+      "182. Elastic Beanstalk Overview (High level).md",
+      "183. Beanstalk First Environment.md",
+      "184. Beanstalk Second Environment.md",
+      "185. Beanstalk Deployment Modes.md",
+      "186. Beanstalk Deployment Modes Hands On.md",
+      "187. Beanstalk CLI and Deployment Process.md",
+      "188. Beanstalk Lifecycle Policy Overview + Hands On.md",
+      "189. Beanstalk Extensions.md",
+      "190. Beanstalk & CloudFormation.md",
+      "191. Beanstalk Cloning.md",
+      "192. Beanstalk Migrations.md",
+      "193. Beanstalk Cleanup.md",
+      "Quiz 14- Elastic Beanstalk Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 18: AWS CloudFormation",
+    "dir": "Section 18- AWS CloudFormation",
+    "files": [
+      "194. CloudFormation - Overview.md",
+      "195. CloudFormation - Create Stack - Hands On.md",
+      "196. CloudFormation - Update & Delete Stack - Hands On.md",
+      "197. YAML Crash Course.md",
+      "198. CloudFormation - Resources.md",
+      "199. CloudFormation - Parameters.md",
+      "200. CloudFormation - Mappings.md",
+      "201. CloudFormation - Outputs & Exports.md",
+      "202. CloudFormation - Conditions.md",
+      "203. CloudFormation - Intrinsic Functions.md",
+      "204. CloudFormation - Rollbacks.md",
+      "205. CloudFormation - Service Role.md",
+      "206. CloudFormation - Capabilities.md",
+      "207. CloudFormation - Deletion Policy.md",
+      "208. CloudFormation - Stack Policy.md",
+      "209. CloudFormation - Termination Protection.md",
+      "210. CloudFormation - Custom Resources.md",
+      "211. CloudFormation - StackSets.md",
+      "Quiz 15- CloudFormation Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 19: AWS Integration & Messaging SQS, SNS & Kinesis",
+    "dir": "Section 19- AWS Integration & Messaging- SQS, SNS & Kinesis",
+    "files": [
+      "212. AWS Integration & Messaging - Section Introduction.md",
+      "213. Introduction to Messaging.md",
+      "214. Amazon SQS - Standard Queues Overview.md",
+      "215. SQS - Standard Queue Hands On.md",
+      "216. SQS Queue Access Policy.md",
+      "217. SQS - Message Visibility Timeout.md",
+      "218. SQS - Dead Letter Queues.md",
+      "219. SQS - Dead Letter Queues - Hands On.md",
+      "220. SQS - Delay Queues.md",
+      "221. SQS - Certified Developer concepts.md",
+      "222. SQS - FIFO Queues.md",
+      "223. SQS - FIFO Queues Advanced.md",
+      "224. Amazon SNS.md",
+      "225. Amazon SNS and SQS - Fan Out Pattern.md",
+      "226. SNS Hands On.md",
+      "227. Amazon Kinesis Data Streams.md",
+      "228. Amazon Kinesis Data Streams - Hands On.md",
+      "229. Amazon Data Firehose.md",
+      "230. Amazon Data Firehose - Hands On.md",
+      "231. Amazon Managed Service for Apache Flink.md",
+      "232. SQS vs SNS vs Kinesis.md",
+      "Quiz 16- Messaging & Integration Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 2: Code & Slides Download",
+    "dir": "Section 2- Code & Slides Download",
+    "files": [
+      "7. Code & Slides Download.md"
+    ]
+  }
+,
+  {
+    "title": "Section 20: AWS Monitoring & Audit CloudWatch, X Ray and CloudTrail",
+    "dir": "Section 20- AWS Monitoring & Audit- CloudWatch, X-Ray and CloudTrail",
+    "files": [
+      "233. AWS Monitoring - Section Introduction.md",
+      "234. Monitoring Overview in AWS.md",
+      "235. CloudWatch Metrics.md",
+      "236. CloudWatch Custom Metrics.md",
+      "237. CloudWatch Logs.md",
+      "238. CloudWatch Logs - Hands On.md",
+      "239. CloudWatch Logs - Live Tail - Hands On.md",
+      "240. CloudWatch Agent & CloudWatch Logs Agent.md",
+      "241. CloudWatch Logs - Metric Filters.md",
+      "242. CloudWatch Logs - Metric Filters Hands On.md",
+      "243. CloudWatch Alarms.md",
+      "244. CloudWatch Alarms Hands On.md",
+      "245. CloudWatch Synthetics.md",
+      "246. Amazon EventBridge.md",
+      "247. Amazon EventBridge - Hands On.md",
+      "248. Amazon EventBridge - Multi-Account Aggregation.md",
+      "249. X-Ray Overview.md",
+      "250. X-Ray Hands On.md",
+      "251. X-Ray- Instrumentation and Concepts.md",
+      "252. X-Ray- Sampling Rules.md",
+      "253. X-Ray APIs.md",
+      "254. X-Ray with Beanstalk.md",
+      "255. X-Ray & ECS.md",
+      "256. AWS Distro for OpenTelemetry.md",
+      "257. CloudTrail.md",
+      "258. CloudTrail Hands On.md",
+      "259. CloudTrail - EventBridge Integration.md",
+      "260. CloudTrail vs CloudWatch vs X-Ray.md",
+      "261. AWS Quick Clean-Up.md",
+      "Quiz 17- Monitoring & Audit Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 21: AWS Serverless Lambda",
+    "dir": "Section 21- AWS Serverless- Lambda",
+    "files": [
+      "262. AWS Lambda - Section Introduction.md",
+      "263. Serverless Introduction.md",
+      "264. AWS Lambda Overview.md",
+      "265. AWS Lambda - First Hands On.md",
+      "266. Lambda Synchronous Invocations.md",
+      "267. Lambda Synchronous Invocations Hands On.md",
+      "268. Lambda & Application Load Balancer.md",
+      "269. Lambda & Application Load Balancer Hands On.md",
+      "270. Lambda Asynchronous Invocations & DLQ.md",
+      "271. Lambda Asynchronous Invocations Hands On.md",
+      "272. Lambda & CloudWatch Events - EventBridge.md",
+      "273. Lambda & CloudWatch Events - EventBridge Hands On.md",
+      "274. Lambda & S3 Event Notifications.md",
+      "275. Lambda & S3 Event Notifications - Hands On.md",
+      "276. Lambda Event Source Mapping.md",
+      "277. Lambda Event Source Mapping Hands On (SQS).md",
+      "278. Lambda Event & Context Objects.md",
+      "279. Lambda Destinations.md",
+      "280. Lambda Destinations Hands On.md",
+      "281. Lambda Permissions - IAM Roles & Resource Policies.md",
+      "282. Lambda Permissions - IAM Roles & Resource Policies - Hands On.md",
+      "283. Lambda Environment Variables.md",
+      "284. Lambda Environment Variables - Hands On.md",
+      "285. Lambda Monitoring & X-Ray Tracing.md",
+      "286. Lambda Monitoring & X-Ray Tracing - Hands On.md",
+      "287. Lambda@Edge & CloudFront Functions.md",
+      "288. Lambda in VPC.md",
+      "289. Lambda in VPC - Hands On.md",
+      "290. Lambda Function Performance.md",
+      "291. Lambda Function Performance - Hands On.md",
+      "292. Lambda Layers.md",
+      "293. Lambda Layers - Hands On.md",
+      "294. Lambda File Systems Mounting.md",
+      "295. Lambda Concurrency.md",
+      "296. Lambda Concurrency Hands On.md",
+      "297. Lambda External Dependencies.md",
+      "298. Lambda External Dependencies - Hands On.md",
+      "299. Lambda and CloudFormation.md",
+      "300. Lambda and CloudFormation - Hands On.md",
+      "301. Lambda Container Images.md",
+      "302. Lambda Versions and Aliases.md",
+      "303. Lambda Versions and Aliases - Hands On.md",
+      "304. Lambda and CodeDeploy.md",
+      "305. Lambda Function URL.md",
+      "306. Lambda Function URL - Hands On.md",
+      "307. Lambda Limits.md",
+      "308. Lambda Best Practices.md",
+      "Quiz 18- Lambda Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 22: AWS Serverless DynamoDB",
+    "dir": "Section 22- AWS Serverless- DynamoDB",
+    "files": [
+      "309. DynamoDB - Section Introduction.md",
+      "310. DynamoDB Overview.md",
+      "311. DynamoDB Basics - Hands On.md",
+      "312. DynamoDB WCU & RCU - Throughput.md",
+      "313. DynamoDB WCU & RCU - Hands On.md",
+      "314. DynamoDB - Basic Operations.md",
+      "315. DynamoDB Basic APIs - Hands On.md",
+      "316. DynamoDB - Conditional Writes.md",
+      "317. DynamoDB Indexes (GSI + LSI).md",
+      "318. DynamoDB Indexes (GSI + LSI) - Hands On.md",
+      "319. DynamoDB PartiQL.md",
+      "320. DynamoDB Optimistic Locking.md",
+      "321. DynamoDB DAX.md",
+      "322. DynamoDB DAX - Hands On.md",
+      "323. DynamoDB Streams.md",
+      "324. DynamoDB Streams - Hands On.md",
+      "325. DynamoDB TTL.md",
+      "326. DynamoDB CLI.md",
+      "327. DynamoDB Transactions.md",
+      "328. DynamoDB Session State.md",
+      "329. DynamoDB Partitioning Strategies.md",
+      "330. DynamoDB Conditional Writes, Concurrent Writes & Atomic Writes.md",
+      "331. DynamoDB Patterns with S3.md",
+      "332. DynamoDB Operations.md",
+      "333. DynamoDB Security & Other.md",
+      "Quiz 19- DynamoDB Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 23: AWS Serverless API Gateway",
+    "dir": "Section 23- AWS Serverless- API Gateway",
+    "files": [
+      "334. API Gateway - Section Introduction.md",
+      "335. API Gateway Overview.md",
+      "336. API Gateway Basics Hands On.md",
+      "337. API Gateway Stages and Deployment.md",
+      "338. API Gateway Stages and Deployment Hands On.md",
+      "339. API Gateway Stages Configurations Hands On.md",
+      "340. API Gateway Canary Deployments.md",
+      "341. API Gateway Canary Deployments Hands On.md",
+      "342. API Gateway Integration Types & Mappings.md",
+      "343. API Gateway Mapping Templates Hands On.md",
+      "344. API Gateway Open API.md",
+      "345. API Gateway Open API - Hands On.md",
+      "346. API Gateway Caching.md",
+      "347. API Gateway Usage Plans & API Keys.md",
+      "348. API Gateway Monitoring, Logging and Tracing.md",
+      "349. API Gateway CORS.md",
+      "350. API Gateway Authentication and Authorization.md",
+      "351. API Gateway Authentication and Authorization - Hands On.md",
+      "352. API Gateway REST API vs HTTP API.md",
+      "353. API Gateway Websocket API.md",
+      "354. API Gateway - Architecture.md",
+      "Quiz 20- API Gateway Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 24: AWS CICD CodeCommit, CodePipeline, CodeBuild, CodeDeploy",
+    "dir": "Section 24- AWS CICD- CodeCommit, CodePipeline, CodeBuild, CodeDeploy",
+    "files": [
+      "355. AWS CICD - Section Introduction.md",
+      "356. Introduction to CICD in AWS.md",
+      "357. CodeCommit Overview.md",
+      "358. CodeCommit Hands On Part I.md",
+      "359. CodeCommit Hands On Part 2.md",
+      "360. CodePipeline Overview.md",
+      "361. CodePipeline - Hands On - Prerequisite.md",
+      "362. CodePipeline - Hands On.md",
+      "363. CodeBuild Overview.md",
+      "364. CodeBuild Hands On Part I.md",
+      "365. CodeBuild Hands On Part 2.md",
+      "366. CodeDeploy Overview.md",
+      "367. CodeDeploy Hands On.md",
+      "368. CodeDeploy for EC2 and ASG.md",
+      "369. CodeArtifact - Overview.md",
+      "370. CodeArtifact - Hands On.md",
+      "Quiz 21- AWS CICD Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 25: AWS Serverless SAM Serverless Application Model",
+    "dir": "Section 25- AWS Serverless- SAM - Serverless Application Model",
+    "files": [
+      "371. AWS SAM - Section Introduction.md",
+      "372. SAM Overview.md",
+      "373. SAM - Hands On.md",
+      "374. SAM with DynamoDB - Hands On.md",
+      "375. SAM Policy Templates.md",
+      "376. SAM with CodeDeploy.md",
+      "377. SAM - Local Capabilities.md",
+      "378. SAM - Multiple Environments.md",
+      "Quiz 22- SAM Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 26: Cloud Development Kit (CDK)",
+    "dir": "Section 26- Cloud Development Kit (CDK)",
+    "files": [
+      "379. CDK Overview.md",
+      "380. CDK - Hands On.md",
+      "381. CDK - Constructs.md",
+      "382. CDK - Commands & Bootstraping.md",
+      "383. CDK - Unit Testing.md",
+      "Quiz 23- CDK Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 27: Cognito Cognito User Pools, Cognito Identity Pools & Cognito Sync",
+    "dir": "Section 27- Cognito- Cognito User Pools, Cognito Identity Pools & Cognito Sync",
+    "files": [
+      "384. Cognito Overview.md",
+      "385. Cognito User Pools.md",
+      "386. Cognito User Pools Hands On.md",
+      "387. Cognito User Pools - Others.md",
+      "388. Application Load Balancer - User Authentication.md",
+      "389. Cognito Identity Pools.md",
+      "390. Cognito Identity Pools Hands On.md",
+      "391. Cognito User Pools vs Cognito Identity Pools.md",
+      "Quiz 24- Cognito Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 28: Other Serverless Step Functions & AppSync",
+    "dir": "Section 28- Other Serverless- Step Functions & AppSync",
+    "files": [
+      "392. Step Functions Overview.md",
+      "393. Step Functions - Hands On.md",
+      "394. Step Functions - Invoke Lambda - Hands On.md",
+      "395. Step Functions - Error Handling.md",
+      "396. Step Functions - Error Handling Hands On.md",
+      "397. Step Functions - Wait For Task Token.md",
+      "398. Step Functions - Activity Tasks.md",
+      "399. Step Functions - Standard vs Express.md",
+      "400. AppSync Overview.md",
+      "401. AppSync Hands On.md",
+      "402. AWS Amplify.md",
+      "403. AWS Amplify - Hands On.md",
+      "Quiz 25- Other Serverless Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 29: Advanced Identity",
+    "dir": "Section 29- Advanced Identity",
+    "files": [
+      "404. STS Overview.md",
+      "405. Advanced IAM.md",
+      "406. Granting a User Permissions to Pass a Role to an AWS Service.md",
+      "407. AWS Directory Services.md",
+      "Quiz 26- Advanced IAM Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 3: Getting started with AWS",
+    "dir": "Section 3- Getting started with AWS",
+    "files": [
+      "10. Tour of the AWS Console & Services in AWS.md",
+      "8. AWS Cloud Overview - Regions & AZ.md",
+      "9. [Important] AWS Console UI Update.md"
+    ]
+  }
+,
+  {
+    "title": "Section 30: AWS Security & Encryption KMS, Encryption SDK, SSM Parameter Store, IAM & STS",
+    "dir": "Section 30- AWS Security & Encryption- KMS, Encryption SDK, SSM Parameter Store, IAM & STS",
+    "files": [
+      "408. AWS Security - Section Introduction.md",
+      "409. Encryption 101.md",
+      "410. KMS Overview.md",
+      "411. KMS Hands On w- CLI.md",
+      "412. KMS Encryption Patterns and Envelope Encryption.md",
+      "413. Encryption SDK CLI Hands On.md",
+      "414. KMS Limits.md",
+      "415. KMS and AWS Lambda Practice.md",
+      "416. S3 Bucket Key.md",
+      "417. KMS Key Policies & IAM Principals.md",
+      "418. CloudHSM Overview.md",
+      "419. SSM Parameter Store Overview.md",
+      "420. SSM Parameter Store Hands On (CLI).md",
+      "421. Secrets Manager - Overview.md",
+      "422. Secrets Manager - Hands On.md",
+      "423. SSM Parameter Store vs Secrets Manager.md",
+      "424. CloudFormation - Secrets Manager & SSM Integration.md",
+      "425. CloudWatch Logs Encryption.md",
+      "426. CodeBuild Security.md",
+      "427. AWS Nitro Enclaves.md",
+      "Quiz 27- AWS Security & Encryption Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 31: AWS Other Services",
+    "dir": "Section 31- AWS Other Services",
+    "files": [
+      "428. AWS Other Services - Section Introduction.md",
+      "429. AWS SES.md",
+      "430. Amazon OpenSearch Service - Overview.md",
+      "431. Amazon Athena - Overview.md",
+      "432. Amazon Athena - Hands On.md",
+      "433. Amazon MSK - Overview.md",
+      "434. Amazon Certificate Manager (ACM).md",
+      "435. Amazon Certificate Manager (ACM) Hands On.md",
+      "436. ACM Private CA - Overview.md",
+      "437. Amazon Macie.md",
+      "438. AWS AppConfig - Overview.md",
+      "Quiz 28- Other Services Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 32: AWS Final Cleanup",
+    "dir": "Section 32- AWS Final Cleanup",
+    "files": [
+      "439. AWS Final Cleanup.md",
+      "440. Cleanup Checklist.md"
+    ]
+  }
+,
+  {
+    "title": "Section 33: Preparing for the Exam AWS Certified Developer Associate",
+    "dir": "Section 33- Preparing for the Exam - AWS Certified Developer Associate",
+    "files": [
+      "441. Exam Preparation - Section Introduction.md",
+      "442. State of Learning Checkpoint.md",
+      "443. Exam Tips - AWS Certified Developer Associate.md",
+      "444. Exam Walkthrough and Signup.md",
+      "445. Save 50% on your AWS Exam Cost!.md",
+      "446. Get an Extra 30 Minutes on your AWS Exam - Non Native English Speakers only.md",
+      "Practice Test 1- Practice Test - AWS Certified Developer Associate.md"
+    ]
+  }
+,
+  {
+    "title": "Section 34: Congratulations AWS Certified Developer Associate",
+    "dir": "Section 34- Congratulations - AWS Certified Developer Associate",
+    "files": [
+      "447. AWS Certification Paths.md",
+      "448. Congratulations.md",
+      "449. Bonus Lecture.md"
+    ]
+  }
+,
+  {
+    "title": "Section 4: IAM & AWS CLI",
+    "dir": "Section 4- IAM & AWS CLI",
+    "files": [
+      "11. IAM Introduction- Users, Groups, Policies.md",
+      "12. IAM Users & Groups Hands On.md",
+      "13. AWS Console Simultaneous Sign-in.md",
+      "14. IAM Policies.md",
+      "15. IAM Policies Hands On.md",
+      "16. IAM MFA Overview.md",
+      "17. IAM MFA Hands On.md",
+      "18. AWS Access Keys, CLI and SDK.md",
+      "19. AWS CLI Setup on Windows.md",
+      "20. AWS CLI Setup on Mac OS X.md",
+      "21. AWS CLI Setup on Linux.md",
+      "22. AWS CLI Hands On.md",
+      "23. AWS CloudShell.md",
+      "24. IAM Roles for AWS Services.md",
+      "25. IAM Roles Hands On.md",
+      "26. IAM Security Tools.md",
+      "27. IAM Security Tools Hands On.md",
+      "28. IAM Best Practices.md",
+      "29. Shared Responsibility Model for IAM.md",
+      "30. IAM Summary.md",
+      "Quiz 1- IAM & AWS CLI Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 5: EC2 Fundamentals",
+    "dir": "Section 5- EC2 Fundamentals",
+    "files": [
+      "31. AWS Budget Setup.md",
+      "32. EC2 Basics.md",
+      "33. Create an EC2 Instance with EC2 User Data to have a Website Hands On.md",
+      "34. EC2 Instance Types Basics.md",
+      "35. Security Groups & Classic Ports Overview.md",
+      "36. Security Groups Hands On.md",
+      "37. SSH Overview.md",
+      "38. How to SSH using Linux or Mac.md",
+      "39. How to SSH using Windows.md",
+      "40. How to SSH using Windows 10.md",
+      "41. SSH Troubleshooting.md",
+      "42. EC2 Instance Connect.md",
+      "43. EC2 Instance Roles Demo.md",
+      "44. EC2 Instance Purchasing Options.md",
+      "Quiz 2- EC2 Fundamentals Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 6: EC2 Instance Storage",
+    "dir": "Section 6- EC2 Instance Storage",
+    "files": [
+      "45. EBS Overview.md",
+      "46. EBS Hands On.md",
+      "47. EBS Snapshots.md",
+      "48. EBS Snapshots - Hands On.md",
+      "49. AMI Overview.md",
+      "50. AMI Hands On.md",
+      "51. EC2 Instance Store.md",
+      "52. EBS Volume Types.md",
+      "53. EBS Multi-Attach.md",
+      "54. Amazon EFS.md",
+      "55. Amazon EFS - Hands On.md",
+      "56. EFS vs EBS.md",
+      "57. EBS & EFS - Section Cleanup.md",
+      "Quiz 3- EC2 Data Management Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 7: AWS Fundamentals ELB + ASG",
+    "dir": "Section 7- AWS Fundamentals- ELB + ASG",
+    "files": [
+      "58. High Availability and Scalability.md",
+      "59. Elastic Load Balancing (ELB) Overview.md",
+      "60. Note- About the Classic Load Balancer (CLB).md",
+      "61. Application Load Balancer (ALB).md",
+      "62. Application Load Balancer (ALB) - Hands On - Part 1.md",
+      "63. Application Load Balancer (ALB) - Hands On - Part 2.md",
+      "64. Network Load Balancer (NLB).md",
+      "65. Network Load Balancer (NLB) - Hands On.md",
+      "66. Gateway Load Balancer (GWLB).md",
+      "67. Elastic Load Balancer - Sticky Sessions.md",
+      "68. Elastic Load Balancer - Cross Zone Load Balancing.md",
+      "69. Elastic Load Balancer - SSL Certificates.md",
+      "70. Elastic Load Balancer - SSL Certificates - Hands On.md",
+      "71. Elastic Load Balancer - Connection Draining.md",
+      "72. Auto Scaling Groups (ASG) Overview.md",
+      "73. Auto Scaling Groups Hands On.md",
+      "74. Auto Scaling Groups - Scaling Policies.md",
+      "75. Auto Scaling Groups - Scaling Policies Hands On.md",
+      "76. Auto Scaling Groups - Instance Refresh.md",
+      "Quiz 4- High Availability & Scalability Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 8: AWS Fundamentals RDS + Aurora + ElastiCache",
+    "dir": "Section 8- AWS Fundamentals- RDS + Aurora + ElastiCache",
+    "files": [
+      "77. Amazon RDS Overview.md",
+      "78. RDS Read Replicas vs Multi AZ.md",
+      "79. Amazon RDS Hands On.md",
+      "80. Amazon Aurora.md",
+      "81. Amazon Aurora - Hands On.md",
+      "82. RDS & Aurora Security.md",
+      "83. RDS Proxy.md",
+      "84. ElastiCache Overview.md",
+      "85. ElastiCache Hands On.md",
+      "86. ElastiCache Strategies.md",
+      "87. Amazon MemoryDB for Redis - Overview.md",
+      "Quiz 5- RDS, Aurora, & ElastiCache Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 9: Route 53",
+    "dir": "Section 9- Route 53",
+    "files": [
+      "100. Routing Policy - Failover.md",
+      "101. Routing Policy - Geolocation.md",
+      "102. Routing Policy - Geoproximity.md",
+      "103. Routing Policy - IP-based.md",
+      "104. Routing Policy - Multi Value.md",
+      "105. 3rd Party Domains & Route 53.md",
+      "106. Route 53 - Section Cleanup.md",
+      "88. What is a DNS-.md",
+      "89. Route 53 Overview.md",
+      "90. Route 53 - Registering a domain.md",
+      "91. Route 53 - Creating our first records.md",
+      "92. Route 53 - EC2 Setup.md",
+      "93. Route 53 - TTL.md",
+      "94. Route 53 CNAME vs Alias.md",
+      "95. Routing Policy - Simple.md",
+      "96. Routing Policy - Weighted.md",
+      "97. Routing Policy - Latency.md",
+      "98. Route 53 Health Checks.md",
+      "99. Route 53 - Health Checks Hands On.md",
+      "Quiz 6- Route 53 Quiz.md"
+    ]
+  }
+
+]

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AWS Certified Solutions Architect Associate - SAA-C03</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <h2>AWS SAA-C03</h2>
+      <p>Certification Notes</p>
+    </div>
+  </nav>
+
+  <main id="main">
+    <div id="content">
+      <div class="placeholder">
+        <h2>AWS Certified Solutions Architect Associate</h2>
+        <p>Select a lecture from the sidebar to view its content.</p>
+        <p style="margin-top: 8px; font-size: 13px; color: #656d76;">
+          SAA-C03 Certification Course Notes
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.9/purify.min.js">
+  </script>
+  <script type="module">
+    // ---------- LOAD SECTIONS FROM JSON ----------
+    async function init() {
+      let sections;
+      try {
+        const res = await fetch("sections.json");
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        sections = await res.json();
+      } catch (err) {
+        document.getElementById("sidebar").innerHTML +=
+          `<p style="padding:16px;color:#ff7b72;font-size:13px;">Failed to load sections.json: ${err.message}</p>`;
+        return;
+      }
+
+      buildSidebar(sections);
+    }
+
+    // ---------- BUILD SIDEBAR ----------
+    function buildSidebar(sections) {
+      const sidebar = document.getElementById("sidebar");
+
+      sections.forEach((section, sectionIdx) => {
+        if (section.files.length === 0) return; // skip empty sections
+
+        const group = document.createElement("div");
+        group.className = "section-group";
+
+        const title = document.createElement("div");
+        title.className = "section-title";
+        title.innerHTML = `
+          <span>${section.title}</span>
+          <span class="arrow">▶</span>
+        `;
+
+        const list = document.createElement("ul");
+        list.className = "section-items";
+
+        // Open first section by default
+        if (sectionIdx === 0) {
+          list.classList.add("open");
+          title.querySelector(".arrow").classList.add("open");
+        }
+
+        title.addEventListener("click", () => {
+          list.classList.toggle("open");
+          title.querySelector(".arrow").classList.toggle("open");
+        });
+
+        section.files.forEach((file) => {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = "#";
+          a.textContent = file.replace(/^\d+\.\s*/, "").replace(".md", "");
+          a.dataset.path = `${section.dir}/${file}`;
+
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            loadContent(a.dataset.path, a);
+          });
+
+          li.appendChild(a);
+          list.appendChild(li);
+        });
+
+        group.appendChild(title);
+        group.appendChild(list);
+        sidebar.appendChild(group);
+      });
+    }
+
+    // Run on page load
+    init();
+
+    // ---------- LOAD CONTENT ----------
+    async function loadContent(path, linkEl) {
+      // Update active state
+      document.querySelectorAll("#sidebar .section-items li").forEach((li) => {
+        li.classList.remove("active");
+      });
+      if (linkEl) {
+        linkEl.parentElement.classList.add("active");
+      }
+
+      const contentDiv = document.getElementById("content");
+      contentDiv.classList.add("loading");
+      contentDiv.innerHTML = '<p style="text-align:center;padding:40px;">Loading...</p>';
+
+      try {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const markdown = await response.text();
+
+        // Configure marked with highlight.js
+        marked.setOptions({
+          highlight: function (code, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+              try {
+                return hljs.highlight(code, { language: lang }).value;
+              } catch (e) {
+                // fallthrough
+              }
+            }
+            return code;
+          },
+          langPrefix: "hljs language-",
+        });
+
+        // Render markdown to HTML
+        let html = marked.parse(markdown);
+
+        // Sanitize with DOMPurify
+        html = DOMPurify.sanitize(html, {
+          ADD_TAGS: ["mermaid"],
+          ADD_ATTR: ["class"],
+        });
+
+        contentDiv.innerHTML = `<div class="markdown-body">${html}</div>`;
+
+        // Highlight code blocks
+        contentDiv.querySelectorAll("pre code").forEach((block) => {
+          hljs.highlightElement(block);
+        });
+
+        // Handle mermaid diagrams - load mermaid on demand
+        if (contentDiv.querySelector("code.language-mermaid")) {
+          await loadMermaid();
+          contentDiv.querySelectorAll("code.language-mermaid").forEach((block) => {
+            const pre = block.closest("pre");
+            if (pre) {
+              const div = document.createElement("div");
+              div.className = "mermaid";
+              div.textContent = block.textContent;
+              pre.parentNode.replaceChild(div, pre);
+            }
+          });
+          if (window.mermaid) {
+            mermaid.run({ nodes: contentDiv.querySelectorAll(".mermaid") });
+          }
+        }
+
+        // Update page title
+        const titleMatch = markdown.match(/^#\s+(.+)/m);
+        if (titleMatch) {
+          document.title = `${titleMatch[1]} - AWS SAA-C03`;
+        }
+      } catch (err) {
+        contentDiv.innerHTML = `
+          <div class="error">
+            <strong>Error loading file:</strong> ${encodeURI(path)}<br>
+            <span style="font-size:13px;">${err.message}</span>
+          </div>
+        `;
+      } finally {
+        contentDiv.classList.remove("loading");
+      }
+    }
+
+    // ---------- LAZY LOAD MERMAID ----------
+    let mermaidLoaded = false;
+    async function loadMermaid() {
+      if (mermaidLoaded) return;
+      mermaidLoaded = true;
+      return new Promise((resolve) => {
+        const script = document.createElement("script");
+        script.src =
+          "https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js";
+        script.onload = () => {
+          mermaid.initialize({ startOnLoad: false, theme: "default" });
+          resolve();
+        };
+        document.head.appendChild(script);
+      });
+    }
+  </script>
+</body>
+</html>
