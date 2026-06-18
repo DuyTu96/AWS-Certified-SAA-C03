@@ -1,0 +1,658 @@
+[
+  {
+    "title": "Section 1: Introduction",
+    "dir": "01. Introduction - AWS Certified Solutions Architect Associate",
+    "files": [
+      "1. Course Introduction - AWS Certified Solutions Architect Associate.md",
+      "2. PLEASE READ Lectures you can skip if you took a course from me before.md",
+      "3. Creating an AWS Account.md",
+      "4. AWS Account Activation Troubleshooting.md",
+      "5. Important Message.md",
+      "6. About your instructor.md"
+    ]
+  }
+,
+  {
+    "title": "Section 2: Code & Slides Download",
+    "dir": "02. Code & Slides Download",
+    "files": [
+      "7. Slides and Code Download.md"
+    ]
+  }
+,
+  {
+    "title": "Section 3: Getting started with AWS",
+    "dir": "03. Getting started with AWS",
+    "files": [
+      "10. Tour of the AWS Console & Services in AWS.md",
+      "11. About the UI changes in the course.md",
+      "8. AWS Cloud Overview - Regions & AZ.md",
+      "9. [Important] AWS Console UI Update.md"
+    ]
+  }
+,
+  {
+    "title": "Section 4: IAM & AWS CLI",
+    "dir": "04. IAM & AWS CLI",
+    "files": [
+      "12. IAM Introduction Users Groups Policies.md",
+      "13. IAM Users & Groups Hands On.md",
+      "14. IAM Policies.md",
+      "15. IAM Policies Hands On.md",
+      "16. IAM MFA Overview.md",
+      "17. IAM MFA Hands On.md",
+      "18. AWS Access Keys CLI and SDK.md",
+      "19. AWS CLI Setup on Windows.md",
+      "20. AWS CLI Setup on Mac OS X.md",
+      "21. AWS CLI Setup on Linux.md",
+      "22. AWS CLI Hands On.md",
+      "23. AWS CloudShell Region Availability.md",
+      "24. AWS CloudShell.md",
+      "25. IAM Roles for AWS Services.md",
+      "26. IAM Roles Hands On.md",
+      "27. IAM Security Tools.md",
+      "28. IAM Security Tools Hands On.md",
+      "29. IAM Best Practices.md",
+      "30. IAM Summary.md",
+      "Quiz 1 IAM & AWS CLI Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 5: EC2 Fundamentals",
+    "dir": "05. EC2 Fundamentals",
+    "files": [
+      "31. AWS Budget Setup.md",
+      "32. EC2 Basics.md",
+      "33. Create an EC2 Instance with EC2 User Data to have a Website Hands On.md",
+      "34. EC2 Instance Types Basics.md",
+      "35. Security Groups & Classic Ports Overview.md",
+      "36. Security Groups Hands On.md",
+      "37. SSH Overview.md",
+      "38. How to SSH using Linux or Mac.md",
+      "39. How to SSH using Windows.md",
+      "40. How to SSH using Windows 10.md",
+      "41. SSH Troubleshooting.md",
+      "42. EC2 Instance Connect.md",
+      "43. EC2 Instance Roles Demo.md",
+      "44. EC2 Instance Purchasing Options.md",
+      "45. IP Address Charges in AWS.md",
+      "46. Spot Instances & Spot Fleet.md",
+      "47. EC2 Instances Launch Types Hands On.md",
+      "Quiz 2. EC2 Fundamentals Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 6: EC2 - SAA Level",
+    "dir": "06. EC2 - Solutions Architect Associate Level",
+    "files": [
+      "48. Private vs Public vs Elastic IP.md",
+      "49. Private vs Public vs Elastic IP Hands On.md",
+      "50. EC2 Placement Groups.md",
+      "51. EC2 Placement Groups - Hands On.md",
+      "52. Elastic Network Interfaces (ENI) - Overview.md",
+      "53. Elastic Network Interfaces (ENI) - Hands On.md",
+      "55. EC2 Hibernate.md",
+      "56. EC2 Hibernate - Hands On.md",
+      "Quiz 3. EC2 SAA Level Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 7: EC2 Instance Storage",
+    "dir": "07. EC2 Instance Storage",
+    "files": [
+      "57. EBS Overview.md",
+      "58. EBS Hands On.md",
+      "59. EBS Snapshots.md",
+      "60. EBS Snapshots - Hands On.md",
+      "61. AMI Overview.md",
+      "62. AMI Hands On.md",
+      "63. EC2 Instance Store.md",
+      "64. EBS Volume Types.md",
+      "65. EBS Multi-Attach.md",
+      "66. EBS Encryption.md",
+      "67. Amazon EFS.md",
+      "68. Amazon EFS - Hands On.md",
+      "69. EFS vs EBS.md",
+      "70. EBS & EFS - Section Cleanup.md",
+      "Quiz 4. EC2 Data Management Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 8: High Availability & Scalability",
+    "dir": "08. High Availability and Scalability",
+    "files": [
+      "71. High Availability and Scalability.md",
+      "72. Elastic Load Balancing (ELB) Overview.md",
+      "73. Note. About the Classic Load Balancer (CLB).md",
+      "74. Application Load Balancer (ALB).md",
+      "75. Application Load Balancer (ALB) - Hands On - Part 1.md",
+      "76. Application Load Balancer (ALB) - Hands On - Part 2.md",
+      "77. Network Load Balancer (NLB).md",
+      "78. Network Load Balancer (NLB) - Hands On.md",
+      "79. Gateway Load Balancer (GWLB).md",
+      "80. Elastic Load Balancer - Sticky Sessions.md",
+      "81. Elastic Load Balancer - Cross Zone Load Balancing.md",
+      "82. Elastic Load Balancer - SSL Certificates.md",
+      "83. Elastic Load Balancer - SSL Certificates - Hands On.md",
+      "84. Elastic Load Balancer - Connection Draining.md",
+      "85. Auto Scaling Groups (ASG) Overview.md",
+      "86. Auto Scaling Groups Hands On.md",
+      "87. Auto Scaling Groups - Scaling Policies.md",
+      "88. Auto Scaling Groups - Scaling Policies Hands On.md",
+      "Quiz 5. High Availability & Scalability Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 9: RDS + Aurora + ElastiCache",
+    "dir": "09. AWS Fundamentals RDS + Aurora + ElastiCache",
+    "files": [
+      "100. ElastiCache Hands On.md",
+      "101. ElastiCache for Solution Architects.md",
+      "102. List of Ports to be familiar with.md",
+      "89. Amazon RDS Overview.md",
+      "90. RDS Read Replicas vs Multi AZ.md",
+      "91. Amazon RDS Hands On.md",
+      "92. RDS Custom for Oracle and Microsoft SQL Server.md",
+      "93. Amazon Aurora.md",
+      "94. Amazon Aurora - Hands On.md",
+      "95. Amazon Aurora - Advanced Concepts.md",
+      "96. RDS & Aurora - Backup and Monitoring.md",
+      "97. RDS Security.md",
+      "98. RDS Proxy.md",
+      "99. ElastiCache Overview.md",
+      "Quiz 6. RDS, Aurora, & ElastiCache Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 10: Route 53",
+    "dir": "10. Route 53",
+    "files": [
+      "103. What is a DNS.md",
+      "104. Route 53 Overview.md",
+      "105. Route 53 - Registering a domain.md",
+      "106. Route 53 - Creating our first records.md",
+      "107. Route 53 - EC2 Setup.md",
+      "108. Route 53 - TTL.md",
+      "109. Route 53 CNAME vs Alias.md",
+      "110. Routing Policy - Simple.md",
+      "111. Routing Policy - Weighted.md",
+      "112. Routing Policy - Latency.md",
+      "113. Route 53 - Health Checks.md",
+      "114. Route 53 - Health Checks Hands On.md",
+      "115. Routing Policy - Failover.md",
+      "116. Routing Policy - Geolocation.md",
+      "117. Routing Policy - Geoproximity.md",
+      "118. Routing Policy - IP-based.md",
+      "119. Routing Policy - Multi Value.md",
+      "120. 3rd Party Domains & Route 53.md",
+      "121. Route 53 - Section Cleanup.md",
+      "Quiz 7. Route 53 Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 11: Classic Solutions Architecture",
+    "dir": "11. Classic Solutions Architecture Discussions",
+    "files": [
+      "122. Solutions Architecture Discussions Overview.md",
+      "123. WhatsTheTime.com.md",
+      "124. MyClothes.com.md",
+      "125. MyWordPress.com.md",
+      "126. Instantiating applications quickly.md",
+      "127. Beanstalk Overview.md",
+      "128. Beanstalk Hands On.md",
+      "Quiz 8. Classic Solutions Architecture Discussions Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 12: Amazon S3 Introduction",
+    "dir": "12. Amazon S3 Introduction",
+    "files": [
+      "129. S3 Overview.md",
+      "130. S3 Hands On.md",
+      "131. S3 Security Bucket Policy.md",
+      "132. S3 Security Bucket Policy Hands On.md",
+      "133. S3 Website Overview.md",
+      "134. S3 Website Hands On.md",
+      "135. S3 Versioning.md",
+      "136. S3 Versioning - Hands On.md",
+      "137. S3 Replication.md",
+      "138. S3 Replication Notes.md",
+      "139. S3 Replication - Hands On.md",
+      "140. S3 Storage Classes Overview.md",
+      "141. S3 Storage Classes Hands On.md",
+      "Quiz 9. Amazon S3 Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 13: Advanced Amazon S3",
+    "dir": "13. Advanced Amazon S3",
+    "files": [
+      "142. S3 Lifecycle Rules (with S3 Analytics).md",
+      "143. S3 Lifecycle Rules - Hands On.md",
+      "144. S3 Requester Pays.md",
+      "145. S3 Event Notifications.md",
+      "146. S3 Event Notifications - Hands On.md",
+      "147. S3 Performance.md",
+      "148. S3 Batch Operations.md",
+      "149. S3 Storage Lens.md",
+      "Quiz 10. Amazon S3 Advanced Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 14: Amazon S3 Security",
+    "dir": "14. Amazon S3 Security",
+    "files": [
+      "150. S3 Encryption.md",
+      "151. About DSSE-KMS.md",
+      "152. S3 Encryption - Hands On.md",
+      "153. S3 Default Encryption.md",
+      "154. S3 CORS.md",
+      "155. S3 CORS Hands On.md",
+      "156. S3 MFA Delete.md",
+      "157. S3 MFA Delete Hands On.md",
+      "158. S3 Access Logs.md",
+      "159. S3 Access Logs - Hands On.md",
+      "160. S3 Pre-signed URLs.md",
+      "161. S3 Pre-signed URLs - Hands On.md",
+      "162. Glacier Vault Lock & S3 Object Lock.md",
+      "163. S3 Access Points.md",
+      "164. S3 Object Lambda.md",
+      "Quiz 11. Amazon S3 Security Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 15: CloudFront & Global Accelerator",
+    "dir": "15. CloudFront & AWS Global Accelerator",
+    "files": [
+      "165. CloudFront Overview.md",
+      "166. CloudFront with S3 - Hands On.md",
+      "167. CloudFront - ALB - EC2 as an Origin.md",
+      "168. CloudFront - Geo Restriction.md",
+      "169. CloudFront - Price Classes.md",
+      "170. CloudFront - Cache Invalidation.md",
+      "171. AWS Global Accelerator - Overview.md",
+      "172. AWS Global Accelerator - Hands On.md",
+      "Quiz 12. CloudFront & AWS Global Accelerator Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 16: AWS Storage Extras",
+    "dir": "16. AWS Storage Extras",
+    "files": [
+      "173. AWS Snow Family Overview.md",
+      "174. AWS Snow Family Hands On.md",
+      "175. Architecture Snowball into Glacier.md",
+      "176. Amazon FSx.md",
+      "177. Amazon FSx - Hands On.md",
+      "178. Storage Gateway Overview.md",
+      "179. Storage Gateway Hands On.md",
+      "180. AWS Transfer Family.md",
+      "181. DataSync - Overview.md",
+      "182. All AWS Storage Options Compared.md",
+      "Quiz 13. AWS Storage Extras Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 17: Decoupling applications",
+    "dir": "17. Decoupling applications SQS, SNS, Kinesis, Active MQ",
+    "files": [
+      "183. Introduction to Messaging.md",
+      "184. Amazon SQS - Standard Queues Overview.md",
+      "185. SQS - Standard Queue Hands On.md",
+      "186. SQS - Message Visibility Timeout.md",
+      "187. SQS - Long Polling.md",
+      "188. SQS - FIFO Queues.md",
+      "189. SQS and Auto Scaling Group.md",
+      "190. Amazon Simple Notification Service (AWS SNS).md",
+      "191. SNS and SQS - Fan Out Pattern.md",
+      "192. SNS - Hands On.md",
+      "193. Amazon Kinesis Data Streams.md",
+      "194. Amazon Kinesis Data Streams - Hands On.md",
+      "195. Amazon Data Firehose.md",
+      "196. Amazon Data Firehose - Hands On.md",
+      "197. SQS vs SNS vs Kinesis.md",
+      "198. Amazon MQ.md",
+      "Quiz 14. Messaging and Integration Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 18: Containers on AWS",
+    "dir": "18. Containers on AWS ECS, Fargate, ECR and EKS",
+    "files": [
+      "199. Docker Introduction.md",
+      "200. Amazon ECS.md",
+      "201. IMPORTANT ECS UI CHANGES.md",
+      "202. Creating ECS Cluster - Hands On.md",
+      "203. Creating ECS Service - Hands On.md",
+      "204. Amazon ECS - Auto Scaling.md",
+      "205. Amazon ECS - Solutions Architectures.md",
+      "206. Amazon ECS - Clean Up - Hands On.md",
+      "207. Amazon ECR.md",
+      "208. Amazon EKS - Overview.md",
+      "209. Amazon EKS - Hands On.md",
+      "210. AWS App Runner.md",
+      "211. AWS App Runner - Hands On.md",
+      "212. AWS App2Container.md",
+      "Quiz 15. Containers on AWS Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 19: Serverless Overviews",
+    "dir": "19. Serverless Overviews from a Solution Architect Perspective",
+    "files": [
+      "213. About the Serverless Section.md",
+      "214. Serverless Introduction.md",
+      "215. Lambda Overview.md",
+      "216. Lambda Hands-On.md",
+      "217. Lambda Limits.md",
+      "218. Lambda Concurrency.md",
+      "219. Lambda Concurrency - Hands On.md",
+      "220. Lambda SnapStart.md",
+      "221. Lambda@Edge and CloudFront Functions.md",
+      "222. Lambda in VPC.md",
+      "223. RDS - Invoking Lambda & Event Notifications.md",
+      "224. Amazon DynamoDB.md",
+      "225. Amazon DynamoDB - Hands-On.md",
+      "226. Amazon DynamoDB - Advanced Features.md",
+      "227. API Gateway Overview.md",
+      "228. API Gateway Basics Hands-On.md",
+      "229. Step Functions.md",
+      "230. Amazon Cognito Overview.md",
+      "Quiz 16. Serverless Overview Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 20: Serverless Architecture Discussions",
+    "dir": "20. Serverless Solution Architecture Discussions",
+    "files": [
+      "231. Mobile Application MyTodoList.md",
+      "232. Serverless Website MyBlog.com.md",
+      "233. MicroServices Architecture.md",
+      "234. Software updates distribution.md",
+      "Quiz 17. Serverless Solutions Architecture Discussions Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 21: Databases in AWS",
+    "dir": "21. Databases in AWS",
+    "files": [
+      "235. Choosing the right database.md",
+      "236. RDS.md",
+      "237. Aurora.md",
+      "238. ElastiCache.md",
+      "239. DynamoDB.md",
+      "240. S3.md",
+      "241. DocumentDB.md",
+      "242. Neptune.md",
+      "243. Keyspaces (for Apache Cassandra).md",
+      "244. QLDB.md",
+      "245. Timestream.md",
+      "Quiz 18. Databases in AWS Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 22: Data & Analytics",
+    "dir": "22. Data & Analytics",
+    "files": [
+      "246. Athena.md",
+      "247. Athena Hands On.md",
+      "248. Redshift.md",
+      "249. OpenSearch (ex. ElasticSearch).md",
+      "250. EMR.md",
+      "251. QuickSight.md",
+      "252. Glue.md",
+      "253. Lake Formation.md",
+      "254. Amazon Managed Service for Apache Flink.md",
+      "255. Amazon Managed Service for Apache Flink - Hands On.md",
+      "256. MSK - Managed Streaming for Apache Kafka.md",
+      "257. Big Data Ingestion Pipeline.md",
+      "Quiz 19. Data & Analytics Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 23: Machine Learning",
+    "dir": "23. Machine Learning",
+    "files": [
+      "258. Rekognition Overview.md",
+      "259. Transcribe Overview.md",
+      "260. Polly Overview.md",
+      "261. Translate Overview.md",
+      "262. Lex + Connect Overview.md",
+      "263. Comprehend Overview.md",
+      "264. Comprehend Medical Overview.md",
+      "265. SageMaker Overview.md",
+      "266. Kendra Overview.md",
+      "267. Personalize Overview.md",
+      "268. Textract Overview.md",
+      "269. Machine Learning Summary.md",
+      "Quiz 20. Machine Learning Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 24: AWS Monitoring & Audit",
+    "dir": "24. AWS Monitoring and Audit CloudWatch, CloudTrail & Config",
+    "files": [
+      "270. AWS Monitoring - Section Introduction.md",
+      "271. CloudWatch Metrics.md",
+      "272. CloudWatch Logs.md",
+      "273. CloudWatch Logs - Hands On.md",
+      "274. CloudWatch Logs - Live Tail - Hands On.md",
+      "275. CloudWatch Agent and CloudWatch Logs Agent.md",
+      "276. CloudWatch Alarms.md",
+      "277. CloudWatch Alarms Hands On.md",
+      "278. EventBridge Overview (formerly CloudWatch Events).md",
+      "279. Amazon EventBridge - Hands On.md",
+      "280. CloudWatch Insights and Operational Visibility.md",
+      "281. CloudTrail Overview.md",
+      "282. CloudTrail Hands On.md",
+      "283. CloudTrail - EventBridge Integration.md",
+      "284. AWS Config - Overview.md",
+      "285. AWS Config - Hands On.md",
+      "286. CloudTrail vs CloudWatch vs Config.md",
+      "Quiz 21. Monitoring and Auditing Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 25: IAM - Advanced",
+    "dir": "25. Identity and Access Management IAM - Advanced",
+    "files": [
+      "287. Organizations - Overview.md",
+      "288. Organizations - Hands On.md",
+      "289. IAM - Advanced Policies.md",
+      "290. IAM - Resource-based Policies vs IAM Roles.md",
+      "291. IAM - Policy Evaluation Logic.md",
+      "292. AWS IAM Identity Center.md",
+      "293. AWS Directory Services.md",
+      "294. AWS Directory Services - Hands On.md",
+      "295. AWS Control Tower.md",
+      "Quiz 22. IAM Advanced Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 26: AWS Security & Encryption",
+    "dir": "26. AWS Security & Encryption KMS, SSM Parameter Store, Shield, WAF",
+    "files": [
+      "296. AWS Security - Section Introduction.md",
+      "297. Encryption 101.md",
+      "298. KMS Overview.md",
+      "300. KMS - Multi-Region Keys.md",
+      "301. S3 Replication with Encryption.md",
+      "302. Encrypted AMI Sharing Process.md",
+      "303. SSM Parameter Store Overview.md",
+      "304. SSM Parameter Store Hands On (CLI).md",
+      "305. SSM Parameter Store Hands On (AWS Lambda).md",
+      "306. AWS Secrets Manager - Overview.md",
+      "307. AWS Secrets Manager - Hands On.md",
+      "308. AWS Certificate Manager (ACM).md",
+      "309. Web Application Firewall (WAF).md",
+      "310. Shield - DDoS Protection.md",
+      "311. Firewall Manager.md",
+      "312. WAF and Shield - Hands On.md",
+      "313. DDoS Protection Best Practices.md",
+      "314. Amazon GuardDuty.md",
+      "315. Amazon Inspector.md",
+      "316. Amazon Macie.md",
+      "Quiz 23. AWS Security & Encryption Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 27: Networking - VPC",
+    "dir": "27. Networking - VPC",
+    "files": [
+      "317. Section Introduction.md",
+      "318. CIDR, Private vs Public IP.md",
+      "319. Default VPC Overview.md",
+      "320. VPC Overview.md",
+      "321. VPC Hands On.md",
+      "322. Subnet Overview.md",
+      "323. Subnet Hands On.md",
+      "324. Internet Gateways & Route Tables.md",
+      "325. Internet Gateways & Route Tables Hands On.md",
+      "326. Bastion Hosts.md",
+      "327. Bastion Hosts Hands On.md",
+      "328. NAT Instances.md",
+      "329. NAT Instances Hands On.md",
+      "330. NAT Gateways.md",
+      "331. NAT Gateways Hands On.md",
+      "332. NACL & Security Groups.md",
+      "333. NACL & Security Groups Hands On.md",
+      "334. VPC Peering.md",
+      "335. VPC Peering Hands On.md",
+      "336. VPC Endpoints.md",
+      "337. VPC Endpoints Hands On.md",
+      "338. VPC Flow Logs.md",
+      "339. VPC Flow Logs Hands On + Athena.md",
+      "340. Site to Site VPN, Virtual Private Gateway & Customer Gateway.md",
+      "341. Site to Site VPN, Virtual Private Gateway & Customer Gateway Hands On.md",
+      "342. Direct Connect & Direct Connect Gateway.md",
+      "343. Direct Connect + Site to Site VPN.md",
+      "344. Transit Gateway.md",
+      "345. VPC Traffic Mirroring.md",
+      "346. IPv6 for VPC.md",
+      "347. IPv6 for VPC - Hands On.md",
+      "348. Egress Only Internet Gateway.md",
+      "349. Egress Only Internet Gateway Hands On.md",
+      "350. Section Cleanup.md",
+      "351. VPC Section Summary.md",
+      "352. Networking Costs in AWS.md",
+      "353. AWS Network Firewall.md",
+      "Quiz 24. VPC Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 28: Disaster Recovery & Migrations",
+    "dir": "28. Disaster Recovery & Migrations",
+    "files": [
+      "354. Disaster Recovery in AWS.md",
+      "355. Database Migration Service (DMS).md",
+      "356. Database Migration Service (DMS) - Hands On.md",
+      "357. RDS & Aurora Migrations.md",
+      "358. On-Premises Strategies with AWS.md",
+      "359. AWS Backup.md",
+      "360. AWS Backup - Hands On.md",
+      "361. Application Migration Service (MGN).md",
+      "362. Transferring Large Datasets into AWS.md",
+      "363. VMware Cloud on AWS.md",
+      "Quiz 25. Disaster Recovery & Migration Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 29: More Solution Architectures",
+    "dir": "29. More Solution Architectures",
+    "files": [
+      "364. Event Processing in AWS.md",
+      "365. Caching Strategies in AWS.md",
+      "366. Blocking an IP Address in AWS.md",
+      "367. High Performance Computing (HPC) on AWS.md",
+      "368. EC2 Instance High Availability.md",
+      "Quiz 26. More Solution Architectures Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 30: Other Services",
+    "dir": "30. Other Services",
+    "files": [
+      "369. Other Services Section Introduction.md",
+      "370. CloudFormation Intro.md",
+      "371. CloudFormation - Hands On.md",
+      "372. CloudFormation - Service Role.md",
+      "373. Amazon SES.md",
+      "374. Amazon Pinpoint.md",
+      "375. SSM Session Manager.md",
+      "376. SSM Other Services.md",
+      "377. AWS Cost Explorer.md",
+      "378. AWS Cost Anomaly Detection.md",
+      "379. AWS Outposts.md",
+      "380. AWS Batch.md",
+      "381. Amazon AppFlow.md",
+      "382. AWS Amplify.md",
+      "383. Instance Scheduler on AWS.md",
+      "Quiz 27. Other Services Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 31: WhitePapers & Architectures",
+    "dir": "31. WhitePapers and Architectures - AWS Certified Solutions Architect Associate",
+    "files": [
+      "384. WhitePaper Section Introduction.md",
+      "385. AWS Well-Architected Framework & Well-Architected Tool.md",
+      "386. AWS Trusted Advisor Overview + Hands-On.md",
+      "387. Examples of Architecture - AWS Certified Solutions Architect Associate.md",
+      "Quiz 28. WhitePapers & Architectures Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 32: Preparing for the Exam",
+    "dir": "32. Preparing for the Exam + Practice Exam - AWS Certified Solutions Architect Assoc",
+    "files": [
+      "388. Exam Preparation - Section Introduction.md",
+      "389. State of Learning Checkpoint - AWS Certified Solutions Architect Associate.md",
+      "390. Exam Tips - AWS Certified Solutions Architect Associate.md",
+      "391. Links to Whitepapers.md",
+      "392. Exam Walkthrough and Signup.md",
+      "393. Save 50% on your AWS Exam Cost!.md",
+      "394. Get an Extra 30 Minutes on your AWS Exam - Non Native English Speakers only.md",
+      "395. How does the exam work.md",
+      "Practice Test 1. Practice Exam - AWS Certified Solutions Architect Associate.md"
+    ]
+  }
+,
+  {
+    "title": "Section 33: Congratulations",
+    "dir": "33. Congratulations - AWS Certified Solutions Architect Associate",
+    "files": [
+      "396. AWS Certification Paths.md",
+      "397. Congratulations.md",
+      "398. Bonus Lecture.md"
+    ]
+  }
+
+]

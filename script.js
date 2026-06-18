@@ -3,6 +3,16 @@ document.querySelector("#udemy").addEventListener("click", () => {
     let text =
       "Tổng hợp lại nội dung bằng tiếng việt, hãy giữ nguyên những từ keywork quan trọng \r\n \r\n";
 
+    const titleElm = [...document.querySelectorAll("*")].find((el) =>
+      [...el.classList].some((cls) =>
+        cls.startsWith("curriculum-item-link--is-current"),
+      ),
+    );
+    text +=
+      titleElm
+        .querySelector("div.ud-focus-visible-target")
+        .innerText.split(".")[1] + "\r\n \r\n";
+
     text += document.getElementById("ct-sidebar-scroll-container").innerText;
     navigator.clipboard
       .writeText(text)
