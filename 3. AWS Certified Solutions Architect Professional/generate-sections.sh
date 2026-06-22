@@ -13,9 +13,10 @@ first=true
 # Support both naming conventions:
 #   "Section 1- Foo Bar/"   (SAP-C02 / DVA-C02 style)
 #   "01. Foo Bar/"          (SAA-C03 style)
-for dir in Section*/ [0-9]*/; do
-  [ ! -d "$dir" ] && continue
+while IFS= read -r dir; do
+  [ -d "$dir" ] || continue
 
+  dir="${dir#./}"
   dirname=$(basename "$dir")
 
   # Extract section number
@@ -34,11 +35,11 @@ for dir in Section*/ [0-9]*/; do
   title="Section $num: $display_name"
 
   # Check if there are any md files that exist
-  if ls "$dir"*.md >/dev/null 2>&1; then
+  if ls "$dir"/*.md >/dev/null 2>&1; then
     files=()
     while IFS= read -r -d '' f; do
       files+=("$(basename "$f")")
-    done < <(find "$dir" -maxdepth 1 -name '*.md' -print0 | sort -z)
+    done < <(find "$dir" -maxdepth 1 -name '*.md' -print0 | sort -zV)
 
     if [ ${#files[@]} -gt 0 ]; then
       if [ "$first" = true ]; then
@@ -50,7 +51,7 @@ for dir in Section*/ [0-9]*/; do
       cat >> "$OUTPUT" << EOF
   {
     "title": "$title",
-    "dir": "${dir%/}",
+    "dir": "$dir",
     "files": [
 EOF
 
@@ -71,7 +72,7 @@ EOF
 EOF
     fi
   fi
-done
+done < <(find . -maxdepth 1 -type d \( -name 'Section*' -o -name '[0-9]*' \) | sort -V)
 
 echo "" >> "$OUTPUT"
 echo "]" >> "$OUTPUT"

@@ -10,9 +10,169 @@
   }
 ,
   {
+    "title": "Section 2: Slides Download",
+    "dir": "Section 2- Slides Download",
+    "files": [
+      "3. Slides Download.md"
+    ]
+  }
+,
+  {
+    "title": "Section 3: Identity & Federation",
+    "dir": "Section 3- Identity & Federation",
+    "files": [
+      "4. IAM.md",
+      "5. IAM Access Analyzer.md",
+      "6. STS.md",
+      "7. Identity Federation & Cognito.md",
+      "8. AWS Directory Services.md",
+      "9. AWS Organizations.md",
+      "10. AWS Organizations Policies.md",
+      "11. AWS IAM Identity Center.md",
+      "12. AWS Control Tower.md",
+      "13. AWS Resource Access Manager - RAM.md",
+      "14. Summary of Identity & Federation.md",
+      "Quiz 2- Identity & Federation Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 4: Security",
+    "dir": "Section 4- Security",
+    "files": [
+      "15. CloudTrail.md",
+      "16. CloudTrail - EventBridge Integration.md",
+      "17. CloudTrail - SA Pro.md",
+      "18. KMS.md",
+      "19. Parameter Store.md",
+      "20. Secrets Manager.md",
+      "21. RDS Security.md",
+      "22. SSL Encryption, SNI & MITM.md",
+      "23. AWS Certificate Manager - ACM.md",
+      "24. CloudHSM.md",
+      "25. Solution Architecture - SSL on ELB.md",
+      "26. S3 Security.md",
+      "27. S3 Access Points.md",
+      "28. S3 Multi-Region Access Points.md",
+      "29. S3 Multi-Region Access Points - Hands On.md",
+      "30. S3 Object Lambda.md",
+      "31. DDoS and AWS Shield.md",
+      "32. AWS WAF - Web Application Firewall.md",
+      "33. AWS Firewall Manager.md",
+      "34. Blocking an IP Address.md",
+      "35. Amazon Inspector.md",
+      "36. AWS Config.md",
+      "37. AWS Managed Logs.md",
+      "38. Amazon GuardDuty.md",
+      "39. IAM Advanced Policies.md",
+      "40. EC2 Instance Connect.md",
+      "41. AWS Security Hub.md",
+      "42. Amazon Detective.md",
+      "Quiz 3- Security Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 5: Compute & Load Balancing",
+    "dir": "Section 5- Compute & Load Balancing",
+    "files": [
+      "43. Solution Architecture on AWS.md",
+      "44. EC2.md",
+      "45. High Performance Computing (HPC).md",
+      "46. Auto Scaling.md",
+      "47. Auto Scaling Update Strategies.md",
+      "48. Spot Instances & Spot Fleet.md",
+      "49. Amazon ECS - Elastic Container Service.md",
+      "50. Amazon ECR - Elastic Container Registry.md",
+      "51. Amazon EKS - Elastic Kubernetes Service.md",
+      "52. ECS Anywhere & EKS Anywhere.md",
+      "53. AWS Lambda - Part 1.md",
+      "54. AWS Lambda - Part 2.md",
+      "55. Elastic Load Balancers - Part 1.md",
+      "56. Elastic Load Balancers - Part 2.md",
+      "57. API Gateway.md",
+      "58. API Gateway - Part 2.md",
+      "59. AWS AppSync.md",
+      "60. Route 53 - Part 1.md",
+      "61. Route 53 - Part 2.md",
+      "62. Route 53 - Resolvers & Hybrid DNS.md",
+      "63. AWS Global Accelerator.md",
+      "64. Comparison of Solutions Architecture.md",
+      "65. AWS Outposts.md",
+      "66. AWS WaveLength.md",
+      "67. AWS Local Zones.md",
+      "Quiz 4- Compute & Load Balancing Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 6: Storage",
+    "dir": "Section 6- Storage",
+    "files": [
+      "68. EBS & Local Instance Store.md",
+      "69. Amazon EFS.md",
+      "70. Amazon S3.md",
+      "71. Amazon S3 - Storage Class Analysis.md",
+      "72. Amazon S3 - Storage Lens.md",
+      "73. S3 Solution Architecture.md",
+      "74. Amazon FSx.md",
+      "75. Amazon FSx - Solution Architectures.md",
+      "76. AWS DataSync.md",
+      "77. AWS DataSync - Solution Architecture.md",
+      "78. AWS Data Exchange.md",
+      "79. AWS Transfer Family.md",
+      "80. AWS Storage Services Price Comparison.md",
+      "Quiz 5- Storage Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 7: Caching",
+    "dir": "Section 7- Caching",
+    "files": [
+      "81. CloudFront - Part 1.md",
+      "82. CloudFront - Part 2.md",
+      "83. Lambda@Edge and CloudFront Functions.md",
+      "84. Lambda@Edge Reduce Latency.md",
+      "85. Amazon ElastiCache.md",
+      "86. Handling Extreme Rates.md",
+      "Quiz 6- Caching Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 8: Databases",
+    "dir": "Section 8- Databases",
+    "files": [
+      "87. DynamoDB.md",
+      "88. Amazon OpenSearch.md",
+      "89. RDS.md",
+      "90. Aurora - Part 1.md",
+      "91. Aurora - Part 2.md",
+      "Quiz 7- Databases Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 9: Service Communication",
+    "dir": "Section 9- Service Communication",
+    "files": [
+      "92. Step Functions.md",
+      "93. SQS.md",
+      "94. Amazon MQ.md",
+      "95. Amazon SNS.md",
+      "96. Amazon SNS - SQS Fan Out Pattern.md",
+      "97. Amazon SNS - Message Delivery Retries.md",
+      "Quiz 8- Service Communication Quiz.md"
+    ]
+  }
+,
+  {
     "title": "Section 10: Data Engineering",
     "dir": "Section 10- Data Engineering",
     "files": [
+      "98. Amazon Kinesis Data Streams.md",
+      "99. Amazon Data Firehose.md",
       "100. Amazon Managed Service for Apache Flink.md",
       "101. Streaming Architectures.md",
       "102. Amazon MSK.md",
@@ -26,8 +186,6 @@
       "110. Amazon Athena.md",
       "111. Amazon QuickSight.md",
       "112. Big Data Architecture.md",
-      "98. Amazon Kinesis Data Streams.md",
-      "99. Amazon Data Firehose.md",
       "Quiz 9- Data Engineering Quiz.md"
     ]
   }
@@ -190,164 +348,6 @@
       "201. AWS Certification Paths.md",
       "202. Congratulations.md",
       "203. Bonus Lecture.md"
-    ]
-  }
-,
-  {
-    "title": "Section 2: Slides Download",
-    "dir": "Section 2- Slides Download",
-    "files": [
-      "3. Slides Download.md"
-    ]
-  }
-,
-  {
-    "title": "Section 3: Identity & Federation",
-    "dir": "Section 3- Identity & Federation",
-    "files": [
-      "10. AWS Organizations Policies.md",
-      "11. AWS IAM Identity Center.md",
-      "12. AWS Control Tower.md",
-      "13. AWS Resource Access Manager - RAM.md",
-      "14. Summary of Identity & Federation.md",
-      "4. IAM.md",
-      "5. IAM Access Analyzer.md",
-      "6. STS.md",
-      "7. Identity Federation & Cognito.md",
-      "8. AWS Directory Services.md",
-      "9. AWS Organizations.md",
-      "Quiz 2- Identity & Federation Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 4: Security",
-    "dir": "Section 4- Security",
-    "files": [
-      "15. CloudTrail.md",
-      "16. CloudTrail - EventBridge Integration.md",
-      "17. CloudTrail - SA Pro.md",
-      "18. KMS.md",
-      "19. Parameter Store.md",
-      "20. Secrets Manager.md",
-      "21. RDS Security.md",
-      "22. SSL Encryption, SNI & MITM.md",
-      "23. AWS Certificate Manager - ACM.md",
-      "24. CloudHSM.md",
-      "25. Solution Architecture - SSL on ELB.md",
-      "26. S3 Security.md",
-      "27. S3 Access Points.md",
-      "28. S3 Multi-Region Access Points.md",
-      "29. S3 Multi-Region Access Points - Hands On.md",
-      "30. S3 Object Lambda.md",
-      "31. DDoS and AWS Shield.md",
-      "32. AWS WAF - Web Application Firewall.md",
-      "33. AWS Firewall Manager.md",
-      "34. Blocking an IP Address.md",
-      "35. Amazon Inspector.md",
-      "36. AWS Config.md",
-      "37. AWS Managed Logs.md",
-      "38. Amazon GuardDuty.md",
-      "39. IAM Advanced Policies.md",
-      "40. EC2 Instance Connect.md",
-      "41. AWS Security Hub.md",
-      "42. Amazon Detective.md",
-      "Quiz 3- Security Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 5: Compute & Load Balancing",
-    "dir": "Section 5- Compute & Load Balancing",
-    "files": [
-      "43. Solution Architecture on AWS.md",
-      "44. EC2.md",
-      "45. High Performance Computing (HPC).md",
-      "46. Auto Scaling.md",
-      "47. Auto Scaling Update Strategies.md",
-      "48. Spot Instances & Spot Fleet.md",
-      "49. Amazon ECS - Elastic Container Service.md",
-      "50. Amazon ECR - Elastic Container Registry.md",
-      "51. Amazon EKS - Elastic Kubernetes Service.md",
-      "52. ECS Anywhere & EKS Anywhere.md",
-      "53. AWS Lambda - Part 1.md",
-      "54. AWS Lambda - Part 2.md",
-      "55. Elastic Load Balancers - Part 1.md",
-      "56. Elastic Load Balancers - Part 2.md",
-      "57. API Gateway.md",
-      "58. API Gateway - Part 2.md",
-      "59. AWS AppSync.md",
-      "60. Route 53 - Part 1.md",
-      "61. Route 53 - Part 2.md",
-      "62. Route 53 - Resolvers & Hybrid DNS.md",
-      "63. AWS Global Accelerator.md",
-      "64. Comparison of Solutions Architecture.md",
-      "65. AWS Outposts.md",
-      "66. AWS WaveLength.md",
-      "67. AWS Local Zones.md",
-      "Quiz 4- Compute & Load Balancing Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 6: Storage",
-    "dir": "Section 6- Storage",
-    "files": [
-      "68. EBS & Local Instance Store.md",
-      "69. Amazon EFS.md",
-      "70. Amazon S3.md",
-      "71. Amazon S3 - Storage Class Analysis.md",
-      "72. Amazon S3 - Storage Lens.md",
-      "73. S3 Solution Architecture.md",
-      "74. Amazon FSx.md",
-      "75. Amazon FSx - Solution Architectures.md",
-      "76. AWS DataSync.md",
-      "77. AWS DataSync - Solution Architecture.md",
-      "78. AWS Data Exchange.md",
-      "79. AWS Transfer Family.md",
-      "80. AWS Storage Services Price Comparison.md",
-      "Quiz 5- Storage Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 7: Caching",
-    "dir": "Section 7- Caching",
-    "files": [
-      "81. CloudFront - Part 1.md",
-      "82. CloudFront - Part 2.md",
-      "83. Lambda@Edge and CloudFront Functions.md",
-      "84. Lambda@Edge Reduce Latency.md",
-      "85. Amazon ElastiCache.md",
-      "86. Handling Extreme Rates.md",
-      "Quiz 6- Caching Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 8: Databases",
-    "dir": "Section 8- Databases",
-    "files": [
-      "87. DynamoDB.md",
-      "88. Amazon OpenSearch.md",
-      "89. RDS.md",
-      "90. Aurora - Part 1.md",
-      "91. Aurora - Part 2.md",
-      "Quiz 7- Databases Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 9: Service Communication",
-    "dir": "Section 9- Service Communication",
-    "files": [
-      "92. Step Functions.md",
-      "93. SQS.md",
-      "94. Amazon MQ.md",
-      "95. Amazon SNS.md",
-      "96. Amazon SNS - SQS Fan Out Pattern.md",
-      "97. Amazon SNS - Message Delivery Retries.md",
-      "Quiz 8- Service Communication Quiz.md"
     ]
   }
 

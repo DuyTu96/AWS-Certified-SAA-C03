@@ -11,6 +11,164 @@
   }
 ,
   {
+    "title": "Section 2: Code & Slides Download",
+    "dir": "Section 2- Code & Slides Download",
+    "files": [
+      "7. Code & Slides Download.md"
+    ]
+  }
+,
+  {
+    "title": "Section 3: Getting started with AWS",
+    "dir": "Section 3- Getting started with AWS",
+    "files": [
+      "8. AWS Cloud Overview - Regions & AZ.md",
+      "9. [Important] AWS Console UI Update.md",
+      "10. Tour of the AWS Console & Services in AWS.md"
+    ]
+  }
+,
+  {
+    "title": "Section 4: IAM & AWS CLI",
+    "dir": "Section 4- IAM & AWS CLI",
+    "files": [
+      "11. IAM Introduction- Users, Groups, Policies.md",
+      "12. IAM Users & Groups Hands On.md",
+      "13. AWS Console Simultaneous Sign-in.md",
+      "14. IAM Policies.md",
+      "15. IAM Policies Hands On.md",
+      "16. IAM MFA Overview.md",
+      "17. IAM MFA Hands On.md",
+      "18. AWS Access Keys, CLI and SDK.md",
+      "19. AWS CLI Setup on Windows.md",
+      "20. AWS CLI Setup on Mac OS X.md",
+      "21. AWS CLI Setup on Linux.md",
+      "22. AWS CLI Hands On.md",
+      "23. AWS CloudShell.md",
+      "24. IAM Roles for AWS Services.md",
+      "25. IAM Roles Hands On.md",
+      "26. IAM Security Tools.md",
+      "27. IAM Security Tools Hands On.md",
+      "28. IAM Best Practices.md",
+      "29. Shared Responsibility Model for IAM.md",
+      "30. IAM Summary.md",
+      "Quiz 1- IAM & AWS CLI Quiz.md"
+    ]
+  }
+,
+  {
+    "title": "Section 5: EC2 Fundamentals",
+    "dir": "Section 5- EC2 Fundamentals",
+    "files": [
+      "31. AWS Budget Setup.md",
+      "32. EC2 Basics.md",
+      "33. Create an EC2 Instance with EC2 User Data to have a Website Hands On.md",
+      "34. EC2 Instance Types Basics.md",
+      "35. Security Groups & Classic Ports Overview.md",
+      "36. Security Groups Hands On.md",
+      "37. SSH Overview.md",
+      "38. How to SSH using Linux or Mac.md",
+      "39. How to SSH using Windows.md",
+      "40. How to SSH using Windows 10.md",
+      "41. SSH Troubleshooting.md",
+      "42. EC2 Instance Connect.md",
+      "43. EC2 Instance Roles Demo.md",
+      "44. EC2 Instance Purchasing Options.md"
+    ]
+  }
+,
+  {
+    "title": "Section 6: EC2 Instance Storage",
+    "dir": "Section 6- EC2 Instance Storage",
+    "files": [
+      "45. EBS Overview.md",
+      "46. EBS Hands On.md",
+      "47. EBS Snapshots.md",
+      "48. EBS Snapshots - Hands On.md",
+      "49. AMI Overview.md",
+      "50. AMI Hands On.md",
+      "51. EC2 Instance Store.md",
+      "52. EBS Volume Types.md",
+      "53. EBS Multi-Attach.md",
+      "54. Amazon EFS.md",
+      "55. Amazon EFS - Hands On.md",
+      "56. EFS vs EBS.md",
+      "57. EBS & EFS - Section Cleanup.md"
+    ]
+  }
+,
+  {
+    "title": "Section 7: AWS Fundamentals ELB + ASG",
+    "dir": "Section 7- AWS Fundamentals- ELB + ASG",
+    "files": [
+      "58. High Availability and Scalability.md",
+      "59. Elastic Load Balancing (ELB) Overview.md",
+      "60. Note- About the Classic Load Balancer (CLB).md",
+      "61. Application Load Balancer (ALB).md",
+      "62. Application Load Balancer (ALB) - Hands On - Part 1.md",
+      "63. Application Load Balancer (ALB) - Hands On - Part 2.md",
+      "64. Network Load Balancer (NLB).md",
+      "65. Network Load Balancer (NLB) - Hands On.md",
+      "66. Gateway Load Balancer (GWLB).md",
+      "67. Elastic Load Balancer - Sticky Sessions.md",
+      "68. Elastic Load Balancer - Cross Zone Load Balancing.md",
+      "69. Elastic Load Balancer - SSL Certificates.md",
+      "70. Elastic Load Balancer - SSL Certificates - Hands On.md",
+      "71. Elastic Load Balancer - Connection Draining.md",
+      "72. Auto Scaling Groups (ASG) Overview.md",
+      "73. Auto Scaling Groups Hands On.md",
+      "74. Auto Scaling Groups - Scaling Policies.md",
+      "75. Auto Scaling Groups - Scaling Policies Hands On.md",
+      "76. Auto Scaling Groups - Instance Refresh.md"
+    ]
+  }
+,
+  {
+    "title": "Section 8: AWS Fundamentals RDS + Aurora + ElastiCache",
+    "dir": "Section 8- AWS Fundamentals- RDS + Aurora + ElastiCache",
+    "files": [
+      "77. Amazon RDS Overview.md",
+      "78. RDS Read Replicas vs Multi AZ.md",
+      "79. Amazon RDS Hands On.md",
+      "80. Amazon Aurora.md",
+      "81. Amazon Aurora - Hands On.md",
+      "82. RDS & Aurora Security.md",
+      "83. RDS Proxy.md",
+      "84. ElastiCache Overview.md",
+      "85. ElastiCache Hands On.md",
+      "86. ElastiCache Strategies.md",
+      "87. Amazon MemoryDB for Redis - Overview.md"
+    ]
+  }
+,
+  {
+    "title": "Section 9: Route 53",
+    "dir": "Section 9- Route 53",
+    "files": [
+      "88. What is a DNS-.md",
+      "89. Route 53 Overview.md",
+      "90. Route 53 - Registering a domain.md",
+      "91. Route 53 - Creating our first records.md",
+      "92. Route 53 - EC2 Setup.md",
+      "93. Route 53 - TTL.md",
+      "94. Route 53 CNAME vs Alias.md",
+      "95. Routing Policy - Simple.md",
+      "96. Routing Policy - Weighted.md",
+      "97. Routing Policy - Latency.md",
+      "98. Route 53 Health Checks.md",
+      "99. Route 53 - Health Checks Hands On.md",
+      "100. Routing Policy - Failover.md",
+      "101. Routing Policy - Geolocation.md",
+      "102. Routing Policy - Geoproximity.md",
+      "103. Routing Policy - IP-based.md",
+      "104. Routing Policy - Multi Value.md",
+      "105. 3rd Party Domains & Route 53.md",
+      "106. Route 53 - Section Cleanup.md",
+      "Quiz 6- Route 53 Quiz.md"
+    ]
+  }
+,
+  {
     "title": "Section 10: VPC Fundamentals",
     "dir": "Section 10- VPC Fundamentals",
     "files": [
@@ -211,14 +369,6 @@
       "231. Amazon Managed Service for Apache Flink.md",
       "232. SQS vs SNS vs Kinesis.md",
       "Quiz 16- Messaging & Integration Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 2: Code & Slides Download",
-    "dir": "Section 2- Code & Slides Download",
-    "files": [
-      "7. Code & Slides Download.md"
     ]
   }
 ,
@@ -478,16 +628,6 @@
   }
 ,
   {
-    "title": "Section 3: Getting started with AWS",
-    "dir": "Section 3- Getting started with AWS",
-    "files": [
-      "10. Tour of the AWS Console & Services in AWS.md",
-      "8. AWS Cloud Overview - Regions & AZ.md",
-      "9. [Important] AWS Console UI Update.md"
-    ]
-  }
-,
-  {
     "title": "Section 30: AWS Security & Encryption KMS, Encryption SDK, SSM Parameter Store, IAM & STS",
     "dir": "Section 30- AWS Security & Encryption- KMS, Encryption SDK, SSM Parameter Store, IAM & STS",
     "files": [
@@ -563,146 +703,6 @@
       "447. AWS Certification Paths.md",
       "448. Congratulations.md",
       "449. Bonus Lecture.md"
-    ]
-  }
-,
-  {
-    "title": "Section 4: IAM & AWS CLI",
-    "dir": "Section 4- IAM & AWS CLI",
-    "files": [
-      "11. IAM Introduction- Users, Groups, Policies.md",
-      "12. IAM Users & Groups Hands On.md",
-      "13. AWS Console Simultaneous Sign-in.md",
-      "14. IAM Policies.md",
-      "15. IAM Policies Hands On.md",
-      "16. IAM MFA Overview.md",
-      "17. IAM MFA Hands On.md",
-      "18. AWS Access Keys, CLI and SDK.md",
-      "19. AWS CLI Setup on Windows.md",
-      "20. AWS CLI Setup on Mac OS X.md",
-      "21. AWS CLI Setup on Linux.md",
-      "22. AWS CLI Hands On.md",
-      "23. AWS CloudShell.md",
-      "24. IAM Roles for AWS Services.md",
-      "25. IAM Roles Hands On.md",
-      "26. IAM Security Tools.md",
-      "27. IAM Security Tools Hands On.md",
-      "28. IAM Best Practices.md",
-      "29. Shared Responsibility Model for IAM.md",
-      "30. IAM Summary.md",
-      "Quiz 1- IAM & AWS CLI Quiz.md"
-    ]
-  }
-,
-  {
-    "title": "Section 5: EC2 Fundamentals",
-    "dir": "Section 5- EC2 Fundamentals",
-    "files": [
-      "31. AWS Budget Setup.md",
-      "32. EC2 Basics.md",
-      "33. Create an EC2 Instance with EC2 User Data to have a Website Hands On.md",
-      "34. EC2 Instance Types Basics.md",
-      "35. Security Groups & Classic Ports Overview.md",
-      "36. Security Groups Hands On.md",
-      "37. SSH Overview.md",
-      "38. How to SSH using Linux or Mac.md",
-      "39. How to SSH using Windows.md",
-      "40. How to SSH using Windows 10.md",
-      "41. SSH Troubleshooting.md",
-      "42. EC2 Instance Connect.md",
-      "43. EC2 Instance Roles Demo.md",
-      "44. EC2 Instance Purchasing Options.md"
-    ]
-  }
-,
-  {
-    "title": "Section 6: EC2 Instance Storage",
-    "dir": "Section 6- EC2 Instance Storage",
-    "files": [
-      "45. EBS Overview.md",
-      "46. EBS Hands On.md",
-      "47. EBS Snapshots.md",
-      "48. EBS Snapshots - Hands On.md",
-      "49. AMI Overview.md",
-      "50. AMI Hands On.md",
-      "51. EC2 Instance Store.md",
-      "52. EBS Volume Types.md",
-      "53. EBS Multi-Attach.md",
-      "54. Amazon EFS.md",
-      "55. Amazon EFS - Hands On.md",
-      "56. EFS vs EBS.md",
-      "57. EBS & EFS - Section Cleanup.md"
-    ]
-  }
-,
-  {
-    "title": "Section 7: AWS Fundamentals ELB + ASG",
-    "dir": "Section 7- AWS Fundamentals- ELB + ASG",
-    "files": [
-      "58. High Availability and Scalability.md",
-      "59. Elastic Load Balancing (ELB) Overview.md",
-      "60. Note- About the Classic Load Balancer (CLB).md",
-      "61. Application Load Balancer (ALB).md",
-      "62. Application Load Balancer (ALB) - Hands On - Part 1.md",
-      "63. Application Load Balancer (ALB) - Hands On - Part 2.md",
-      "64. Network Load Balancer (NLB).md",
-      "65. Network Load Balancer (NLB) - Hands On.md",
-      "66. Gateway Load Balancer (GWLB).md",
-      "67. Elastic Load Balancer - Sticky Sessions.md",
-      "68. Elastic Load Balancer - Cross Zone Load Balancing.md",
-      "69. Elastic Load Balancer - SSL Certificates.md",
-      "70. Elastic Load Balancer - SSL Certificates - Hands On.md",
-      "71. Elastic Load Balancer - Connection Draining.md",
-      "72. Auto Scaling Groups (ASG) Overview.md",
-      "73. Auto Scaling Groups Hands On.md",
-      "74. Auto Scaling Groups - Scaling Policies.md",
-      "75. Auto Scaling Groups - Scaling Policies Hands On.md",
-      "76. Auto Scaling Groups - Instance Refresh.md"
-    ]
-  }
-,
-  {
-    "title": "Section 8: AWS Fundamentals RDS + Aurora + ElastiCache",
-    "dir": "Section 8- AWS Fundamentals- RDS + Aurora + ElastiCache",
-    "files": [
-      "77. Amazon RDS Overview.md",
-      "78. RDS Read Replicas vs Multi AZ.md",
-      "79. Amazon RDS Hands On.md",
-      "80. Amazon Aurora.md",
-      "81. Amazon Aurora - Hands On.md",
-      "82. RDS & Aurora Security.md",
-      "83. RDS Proxy.md",
-      "84. ElastiCache Overview.md",
-      "85. ElastiCache Hands On.md",
-      "86. ElastiCache Strategies.md",
-      "87. Amazon MemoryDB for Redis - Overview.md"
-    ]
-  }
-,
-  {
-    "title": "Section 9: Route 53",
-    "dir": "Section 9- Route 53",
-    "files": [
-      "100. Routing Policy - Failover.md",
-      "101. Routing Policy - Geolocation.md",
-      "102. Routing Policy - Geoproximity.md",
-      "103. Routing Policy - IP-based.md",
-      "104. Routing Policy - Multi Value.md",
-      "105. 3rd Party Domains & Route 53.md",
-      "106. Route 53 - Section Cleanup.md",
-      "88. What is a DNS-.md",
-      "89. Route 53 Overview.md",
-      "90. Route 53 - Registering a domain.md",
-      "91. Route 53 - Creating our first records.md",
-      "92. Route 53 - EC2 Setup.md",
-      "93. Route 53 - TTL.md",
-      "94. Route 53 CNAME vs Alias.md",
-      "95. Routing Policy - Simple.md",
-      "96. Routing Policy - Weighted.md",
-      "97. Routing Policy - Latency.md",
-      "98. Route 53 Health Checks.md",
-      "99. Route 53 - Health Checks Hands On.md",
-      "Quiz 6- Route 53 Quiz.md"
     ]
   }
 
