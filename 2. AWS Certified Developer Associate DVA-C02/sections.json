@@ -6,9 +6,7 @@
       "1. Course Introduction - AWS Certified Developer Associate.md",
       "2. PLEASE READ- Lectures you can skip if you took a course from me before.md",
       "3. Creating an AWS Account.md",
-      "4. AWS Account Activation Troubleshooting.md",
-      "5. Important Message.md",
-      "6. About your instructor.md"
+      "4. AWS Account Activation Troubleshooting.md"
     ]
   }
 ,
@@ -21,8 +19,7 @@
       "109. NACL, SG, VPC Flow Logs.md",
       "110. VPC Peering, Endpoints, VPN, DX.md",
       "111. VPC Cheat Sheet & Closing Comments.md",
-      "112. Three Tier Architecture.md",
-      "Quiz 7- VPC Quiz.md"
+      "112. Three Tier Architecture.md"
     ]
   }
 ,
@@ -42,8 +39,7 @@
       "122. S3 Replication Notes.md",
       "123. S3 Replication - Hands On.md",
       "124. S3 Storage Classes Overview.md",
-      "125. S3 Storage Classes Hands On.md",
-      "Quiz 8- Amazon S3 Quiz.md"
+      "125. S3 Storage Classes Hands On.md"
     ]
   }
 ,
@@ -556,8 +552,7 @@
       "443. Exam Tips - AWS Certified Developer Associate.md",
       "444. Exam Walkthrough and Signup.md",
       "445. Save 50% on your AWS Exam Cost!.md",
-      "446. Get an Extra 30 Minutes on your AWS Exam - Non Native English Speakers only.md",
-      "Practice Test 1- Practice Test - AWS Certified Developer Associate.md"
+      "446. Get an Extra 30 Minutes on your AWS Exam - Non Native English Speakers only.md"
     ]
   }
 ,
@@ -616,8 +611,7 @@
       "41. SSH Troubleshooting.md",
       "42. EC2 Instance Connect.md",
       "43. EC2 Instance Roles Demo.md",
-      "44. EC2 Instance Purchasing Options.md",
-      "Quiz 2- EC2 Fundamentals Quiz.md"
+      "44. EC2 Instance Purchasing Options.md"
     ]
   }
 ,
@@ -637,8 +631,7 @@
       "54. Amazon EFS.md",
       "55. Amazon EFS - Hands On.md",
       "56. EFS vs EBS.md",
-      "57. EBS & EFS - Section Cleanup.md",
-      "Quiz 3- EC2 Data Management Quiz.md"
+      "57. EBS & EFS - Section Cleanup.md"
     ]
   }
 ,
@@ -664,8 +657,7 @@
       "73. Auto Scaling Groups Hands On.md",
       "74. Auto Scaling Groups - Scaling Policies.md",
       "75. Auto Scaling Groups - Scaling Policies Hands On.md",
-      "76. Auto Scaling Groups - Instance Refresh.md",
-      "Quiz 4- High Availability & Scalability Quiz.md"
+      "76. Auto Scaling Groups - Instance Refresh.md"
     ]
   }
 ,
@@ -683,8 +675,7 @@
       "84. ElastiCache Overview.md",
       "85. ElastiCache Hands On.md",
       "86. ElastiCache Strategies.md",
-      "87. Amazon MemoryDB for Redis - Overview.md",
-      "Quiz 5- RDS, Aurora, & ElastiCache Quiz.md"
+      "87. Amazon MemoryDB for Redis - Overview.md"
     ]
   }
 ,
