@@ -259,7 +259,7 @@
 
   <div class="courses">
     <!-- AWS Solutions Architect Associate -->
-    <div class="card">
+    <div class="card" data-course="saa">
       <div class="badge">Associate</div>
       <h2>AWS Certified Solutions Architect Associate</h2>
       <div class="code">SAA-C03</div>
@@ -267,11 +267,11 @@
       <div class="stats">
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M2 4.5A2.5 2.5 0 014.5 2h7A2.5 2.5 0 0114 4.5v7a2.5 2.5 0 01-2.5 2.5h-7A2.5 2.5 0 012 11.5v-7z"/></svg>
-          <span class="num">33</span> sections
+          <span class="num" data-stat="sections">33</span> sections
         </span>
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M4 2h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>
-          <span class="num">398</span> lectures
+          <span class="num" data-stat="lectures">398</span> lectures
         </span>
       </div>
       <a class="btn" href="1. AWS-Certified-Solutions-Architect-Associate-Certification-SAA-C03/index.html" target="_blank">
@@ -281,7 +281,7 @@
     </div>
 
     <!-- AWS Developer Associate -->
-    <div class="card">
+    <div class="card" data-course="dva">
       <div class="badge">Associate</div>
       <h2>AWS Certified Developer Associate</h2>
       <div class="code">DVA-C02</div>
@@ -289,11 +289,11 @@
       <div class="stats">
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M2 4.5A2.5 2.5 0 014.5 2h7A2.5 2.5 0 0114 4.5v7a2.5 2.5 0 01-2.5 2.5h-7A2.5 2.5 0 012 11.5v-7z"/></svg>
-          <span class="num">34</span> sections
+          <span class="num" data-stat="sections">34</span> sections
         </span>
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M4 2h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>
-          <span class="num">449</span> lectures
+          <span class="num" data-stat="lectures">449</span> lectures
         </span>
       </div>
       <a class="btn" href="2. AWS Certified Developer Associate DVA-C02/index.html" target="_blank">
@@ -303,7 +303,7 @@
     </div>
 
     <!-- AWS Solutions Architect Professional -->
-    <div class="card">
+    <div class="card" data-course="sap">
       <div class="badge">Professional</div>
       <h2>AWS Certified Solutions Architect Professional</h2>
       <div class="code">SAP-C02</div>
@@ -311,11 +311,11 @@
       <div class="stats">
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M2 4.5A2.5 2.5 0 014.5 2h7A2.5 2.5 0 0114 4.5v7a2.5 2.5 0 01-2.5 2.5h-7A2.5 2.5 0 012 11.5v-7z"/></svg>
-          <span class="num">19</span> sections
+          <span class="num" data-stat="sections">19</span> sections
         </span>
         <span>
           <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M4 2h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V4a2 2 0 012-2z"/></svg>
-          <span class="num">? lectures</span>
+          <span class="num" data-stat="lectures">?</span> lectures
         </span>
       </div>
       <a class="btn" href="3. AWS Certified Solutions Architect Professional/index.html" target="_blank">
@@ -330,15 +330,48 @@
   </div>
 
   <script>
-    // Count markdown files in each course
-    async function countFiles(path) {
-      try {
-        // We can't list directories from frontend, so we'll just show static estimates
-        // The stats are hardcoded based on known course structures
-      } catch (e) {
-        // silent
-      }
+    async function updateCourseStats() {
+      const courses = [
+        {
+          selector: '[data-course="saa"]',
+          sectionsPath: '1. AWS-Certified-Solutions-Architect-Associate-Certification-SAA-C03/sections.json',
+        },
+        {
+          selector: '[data-course="dva"]',
+          sectionsPath: '2. AWS Certified Developer Associate DVA-C02/sections.json',
+        },
+        {
+          selector: '[data-course="sap"]',
+          sectionsPath: '3. AWS Certified Solutions Architect Professional/sections.json',
+        },
+      ];
+
+      await Promise.all(courses.map(async (course) => {
+        const card = document.querySelector(course.selector);
+        if (!card) return;
+
+        try {
+          const response = await fetch(course.sectionsPath);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+          const sections = await response.json();
+          const sectionCount = sections.filter((section) => (section.files || []).length > 0).length;
+          const lectureCount = sections.reduce(
+            (total, section) => total + ((section.files || []).length),
+            0
+          );
+
+          const sectionEl = card.querySelector('[data-stat="sections"]');
+          const lectureEl = card.querySelector('[data-stat="lectures"]');
+          if (sectionEl) sectionEl.textContent = String(sectionCount);
+          if (lectureEl) lectureEl.textContent = String(lectureCount);
+        } catch (error) {
+          // Keep the existing hardcoded fallback if a course JSON is unavailable.
+        }
+      }));
     }
+
+    updateCourseStats();
   </script>
 </body>
 </html>
