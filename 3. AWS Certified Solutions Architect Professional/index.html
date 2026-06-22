@@ -41,6 +41,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.9/purify.min.js">
   </script>
   <script type="module">
+    const COURSE_STORAGE_KEY = "aws-notes:last-opened:sap-c02";
+
     // ---------- LOAD SECTIONS FROM JSON ----------
     async function init() {
       let sections;
@@ -55,6 +57,7 @@
       }
 
       buildSidebar(sections);
+      restoreLastOpenedPage();
     }
 
     // ---------- BUILD SIDEBAR ----------
@@ -108,6 +111,23 @@
         group.appendChild(list);
         sidebar.appendChild(group);
       });
+    }
+
+    function restoreLastOpenedPage() {
+      const savedPath = localStorage.getItem(COURSE_STORAGE_KEY);
+      if (!savedPath) return;
+
+      const savedLink = Array.from(document.querySelectorAll("#sidebar a")).find(
+        (a) => a.dataset.path === savedPath
+      );
+      if (!savedLink) return;
+
+      const sectionList = savedLink.closest(".section-items");
+      const sectionTitle = sectionList?.previousElementSibling;
+      if (sectionList) sectionList.classList.add("open");
+      if (sectionTitle) sectionTitle.querySelector(".arrow")?.classList.add("open");
+
+      loadContent(savedPath, savedLink);
     }
 
     // Run on page load
@@ -185,6 +205,8 @@
         if (titleMatch) {
           document.title = `${titleMatch[1]} - AWS SAP-C02`;
         }
+
+        localStorage.setItem(COURSE_STORAGE_KEY, path);
       } catch (err) {
         contentDiv.innerHTML = `
           <div class="error">
