@@ -42,15 +42,38 @@
   </script>
   <script type="module">
     const COURSE_STORAGE_KEY = "aws-notes:last-opened:dva-c02";
+    const DEBUG_PREFIX = "[DVA-C02]";
+
+    function debugLog(message, ...args) {
+      console.log(DEBUG_PREFIX, message, ...args);
+    }
+
+    function debugWarn(message, ...args) {
+      console.warn(DEBUG_PREFIX, message, ...args);
+    }
+
+    function debugError(message, ...args) {
+      console.error(DEBUG_PREFIX, message, ...args);
+    }
 
     // ---------- LOAD SECTIONS FROM JSON ----------
     async function init() {
+      debugLog("init start", {
+        url: window.location.href,
+        storageKey: COURSE_STORAGE_KEY,
+      });
       let sections;
       try {
         const res = await fetch("sections.json");
+        debugLog("fetch sections.json", { ok: res.ok, status: res.status });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         sections = await res.json();
+        debugLog("sections loaded", {
+          sectionCount: sections.length,
+          firstSection: sections[0]?.title,
+        });
       } catch (err) {
+        debugError("failed to load sections.json", err);
         document.getElementById("sidebar").innerHTML +=
           `<p style="padding:16px;color:#ff7b72;font-size:13px;">Failed to load sections.json: ${err.message}</p>`;
         return;
@@ -63,6 +86,7 @@
     // ---------- BUILD SIDEBAR ----------
     function buildSidebar(sections) {
       const sidebar = document.getElementById("sidebar");
+      debugLog("buildSidebar", { sectionCount: sections.length });
 
       sections.forEach((section, sectionIdx) => {
         if (section.files.length === 0) return; // skip empty sections
@@ -115,15 +139,23 @@
 
     function restoreLastOpenedPage() {
       const savedPath = localStorage.getItem(COURSE_STORAGE_KEY);
+      debugLog("restoreLastOpenedPage", { savedPath });
       if (!savedPath) return;
 
       const savedLink = Array.from(document.querySelectorAll("#sidebar a")).find(
         (a) => a.dataset.path === savedPath
       );
-      if (!savedLink) return;
+      if (!savedLink) {
+        debugWarn("saved path not found in sidebar", savedPath);
+        return;
+      }
 
       const sectionList = savedLink.closest(".section-items");
       const sectionTitle = sectionList?.previousElementSibling;
+      debugLog("restoring saved page", {
+        savedPath,
+        sectionTitle: sectionTitle?.textContent?.trim(),
+      });
       if (sectionList) sectionList.classList.add("open");
       if (sectionTitle) sectionTitle.querySelector(".arrow")?.classList.add("open");
 
@@ -135,6 +167,7 @@
 
     // ---------- LOAD CONTENT ----------
     async function loadContent(path, linkEl) {
+      debugLog("loadContent start", { path });
       // Update active state
       document.querySelectorAll("#sidebar .section-items li").forEach((li) => {
         li.classList.remove("active");
@@ -149,8 +182,14 @@
 
       try {
         const response = await fetch(path);
+        debugLog("fetch lecture", { path, ok: response.ok, status: response.status });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const markdown = await response.text();
+        debugLog("lecture loaded", {
+          path,
+          bytes: markdown.length,
+          title: (markdown.match(/^#\s+(.+)/m) || [null, "n/a"])[1],
+        });
 
         // Configure marked with highlight.js
         marked.setOptions({
@@ -207,7 +246,9 @@
         }
 
         localStorage.setItem(COURSE_STORAGE_KEY, path);
+        debugLog("saved last opened path", { path });
       } catch (err) {
+        debugError("loadContent failed", { path, error: err });
         contentDiv.innerHTML = `
           <div class="error">
             <strong>Error loading file:</strong> ${encodeURI(path)}<br>
